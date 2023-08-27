@@ -1,19 +1,13 @@
 .header-logo {
   color: #2196f3;
-  font-family: Raleway;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.78px;
 }
 .header-link {
   color: #2196f3;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.28px;
 }
 .header-link1 {
@@ -27,20 +21,14 @@
 }
 .header-contact {
   color: #2196f3;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.28px;
 }
 .header-contact1 {
   color: #757575;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.28px;
 }
 .hero {
@@ -49,13 +37,10 @@
 .hero-title {
   width: 696px;
   color: #ffffff;
-  font-family: Roboto;
   font-size: 44px;
-  font-style: normal;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 2.64px;
-  text-align: center;
   text-transform: uppercase;
 }
 .hero-button {
@@ -69,11 +54,8 @@
 .info-title {
   width: 270px;
   color: #212121;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
@@ -82,20 +64,15 @@
   height: 72px;
   flex-shrink: 0;
   color: #757575;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
 }
 .work-title {
   color: #212121;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 1.08px;
   text-align: center;
 }
@@ -119,11 +96,8 @@
 }
 .team-title {
   color: #212121;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 1.08px;
   text-align: center;
 }
@@ -157,31 +131,22 @@
 }
 .photo-title {
   color: #212121;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.48px;
   text-align: center;
 }
 .photo-text {
   color: #757575;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.48px;
   text-align: center;
 }
 .basement-text {
   color: #2196f3;
-  font-family: Raleway;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.78px;
 }
 .basement-address {
@@ -189,9 +154,7 @@
     height: 21px;
     flex-shrink: 0;
     color: #fff;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -201,9 +164,7 @@
   height: 21px;
   flex-shrink: 0;
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -213,9 +174,7 @@
   height: 21px;
   flex-shrink: 0;
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -263,9 +222,7 @@
 .info-title {
   width: 322px;
   color: #212121;
-  font-family: Roboto;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1.08px;
@@ -273,9 +230,7 @@
 .info-text-portfolio {
   width: 322px;
   color: #757575;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.48px;
