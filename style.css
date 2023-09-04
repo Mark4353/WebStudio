@@ -3,20 +3,20 @@
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
+  font-family: "Raleway";
 }
 .header-link {
   color: #2196f3;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+  font-family: "Roboto";
 }
 .header-link1 {
   color: #212121;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.28px;
 }
 .header-contact {
@@ -24,12 +24,14 @@
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+  font-family: "Roboto";
 }
 .header-contact1 {
   color: #757575;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+  font-family: "Roboto";
 }
 .hero {
   background-color: #2f303a;
@@ -42,6 +44,7 @@
   line-height: 60px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  font-family: "Roboto";
 }
 .hero-button {
   width: 216px;
@@ -50,6 +53,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: #2196f3;
   flex-shrink: 0;
+  font-family: "Roboto";
 }
 .info-title {
   width: 270px;
@@ -58,6 +62,7 @@
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  font-family: "Roboto";
 }
 .info-text {
   width: 270px;
@@ -68,6 +73,7 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
+  font-family: "Roboto";
 }
 .work-title {
   color: #212121;
@@ -75,6 +81,7 @@
   font-weight: 700;
   letter-spacing: 1.08px;
   text-align: center;
+  font-family: "Roboto";
 }
 .work-photo1 {
   width: 370px;
@@ -100,6 +107,7 @@
   font-weight: 700;
   letter-spacing: 1.08px;
   text-align: center;
+  font-family: "Roboto";
 }
 .team-photo1 {
   width: 270px;
@@ -135,19 +143,22 @@
   font-weight: 500;
   letter-spacing: 0.48px;
   text-align: center;
+  font-family: "Roboto";
 }
 .photo-text {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.48px;
-  text-align: center;
+  text-align: center; 
+  font-family: "Roboto";
 }
 .basement-text {
   color: #2196f3;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
+  font-family: "Raleway";
 }
 .basement-address {
     width: 231px;
@@ -168,6 +179,7 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
+  font-family: "roboto";
 }
 .basement-contact1 {
   width: 231px;
@@ -178,16 +190,17 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
+  font-family: "Roboto";
+  
 }
 .footer-color {
   background-color: #2f303a;
 }
 .main-button1 {
-  display: flex;
   width: 47px;
   overflow: hidden;
   background: #fff;
-  flex-direction: column;
+  font-family: "roboto";
   justify-content: center;
   align-items: center;
   gap: 94px;
@@ -197,7 +210,6 @@
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background: #2196f3;
-  flex-shrink: 0;
 }
 .main-button {
   width: 125px;
@@ -205,6 +217,7 @@
   border-radius: 4px;
   background: #f5f4fa;
   flex-shrink: 0;
+  font-family: "roboto";
 }
 .info-img {
   width: 370px;
@@ -217,7 +230,6 @@
   height: 294px;
   background: url(<path-to-image>),
     lightgray 0px -45.881px / 100% 182.783% no-repeat;
-  flex-shrink: 0;
 }
 .info-title {
   width: 322px;
@@ -226,6 +238,7 @@
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1.08px;
+  font-family: "Roboto";
 }
 .info-text-portfolio {
   width: 322px;
@@ -234,4 +247,5 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.48px;
+  font-family: "Roboto";
 }
