@@ -47,19 +47,19 @@
   color: #ffffff;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
   font-family: "Roboto";
 }
 
 .hero-button {
+  color: #fff;
   width: 216px;
   height: 50px;
-  border-radius: 4px;
+  border-radius: 6px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: #2196f3;
-  flex-shrink: 0;
   font-family: "Roboto";
 }
 
@@ -80,7 +80,7 @@
   color: #757575;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
   font-family: "Roboto";
 }
@@ -129,7 +129,6 @@
   height: 260px;
   background: url(<path-to-image>),
     lightgray -86.437px -3.457px / 196.208% 136.002% no-repeat;
-  flex-shrink: 0;
 }
 
 .team-photo2 {
@@ -137,7 +136,7 @@
   height: 260px;
   background: url(<path-to-image>),
     lightgray -40.687px -0.224px / 175.271% 121.356% no-repeat;
-  flex-shrink: 0;
+
 }
 
 .team-photo3 {
@@ -145,7 +144,7 @@
   height: 260px;
   background: url(<path-to-image>),
     lightgray -227.68px -8.844px / 193.508% 134.131% no-repeat;
-  flex-shrink: 0;
+
 }
 
 .team-photo4 {
@@ -153,7 +152,7 @@
   height: 260px;
   background: url(<path-to-image>),
     lightgray -74.896px 0px / 152.119% 105.326% no-repeat;
-  flex-shrink: 0;
+
 }
 
 .photo-title {
@@ -189,7 +188,7 @@
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
 }
 
@@ -200,7 +199,7 @@
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
   font-family: "roboto";
 }
@@ -212,7 +211,7 @@
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
   font-family: "Roboto";
 }
@@ -223,12 +222,9 @@
 
 .main-button1 {
   width: 47px;
-  overflow: hidden;
   background: #fff;
   font-family: "roboto";
-  justify-content: center;
   align-items: center;
-  gap: 94px;
   width: 73px;
   height: 38px;
   border-radius: 4px;
@@ -250,7 +246,6 @@
   width: 370px;
   height: 294px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  flex-shrink: 0;
 }
 
 .info-img2 {
@@ -275,8 +270,7 @@
   color: #757575;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.48px;
   font-family: "Roboto";
 }
-
