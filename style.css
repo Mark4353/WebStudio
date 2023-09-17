@@ -40,6 +40,7 @@
 
 .hero {
   background-color: #2f303a;
+  
 }
 
 .hero-title {
@@ -98,21 +99,19 @@
   width: 370px;
   height: 294px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  flex-shrink: 0;
 }
 
 .work-photo2 {
   width: 370px;
   height: 294px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  flex-shrink: 0;
+
 }
 
 .work-photo3 {
   width: 370px;
   height: 294px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;  
 }
 
 .team-title {
@@ -173,7 +172,7 @@
   font-family: "Roboto";
 }
 
-.basement-text {
+.footer-text {
   color: #2196f3;
   font-size: 26px;
   font-weight: 700;
@@ -181,7 +180,7 @@
   font-family: "Raleway";
 }
 
-.basement-address {
+.footer-address {
   width: 231px;
   height: 21px;
   flex-shrink: 0;
@@ -192,7 +191,7 @@
   letter-spacing: 0.42px;
 }
 
-.basement-contact {
+.footer-contact {
   width: 231px;
   height: 21px;
   flex-shrink: 0;
@@ -204,11 +203,11 @@
   font-family: "roboto";
 }
 
-.basement-contact1 {
+.footer-contact1 {
   width: 231px;
   height: 21px;
   flex-shrink: 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(164, 164, 164, 0.6);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
