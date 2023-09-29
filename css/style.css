@@ -42,7 +42,7 @@ body{
 
 .hero {
   background-color: #2f303a;
-  
+  background-size: contain;
 }
 
 .hero-title {
@@ -53,6 +53,7 @@ body{
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .hero-button {
@@ -61,7 +62,7 @@ body{
   height: 50px;
   border-radius: 6px;
   background: #2196f3;
-
+  cursor: pointer;
 }
 
 .info-title {
@@ -88,26 +89,23 @@ body{
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  text-align: center;
+
 }
 
 .work-photo1 {
   width: 370px;
   height: 294px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .work-photo2 {
   width: 370px;
   height: 294px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 }
 
 .work-photo3 {
   width: 370px;
   height: 294px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;  
 }
 
 .team-title {
@@ -162,7 +160,6 @@ body{
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.48px;
-  text-align: center;
 }
 
 .footer-text {
@@ -176,7 +173,6 @@ body{
 .footer-address {
   width: 231px;
   height: 21px;
-  flex-shrink: 0;
   color: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -187,7 +183,6 @@ body{
 .footer-contact {
   width: 231px;
   height: 21px;
-  flex-shrink: 0;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
@@ -198,7 +193,6 @@ body{
 .footer-contact1 {
   width: 231px;
   height: 21px;
-  flex-shrink: 0;
   color: rgba(164, 164, 164, 0.6);
   font-size: 14px;
   font-weight: 400;
@@ -217,8 +211,6 @@ body{
   width: 73px;
   height: 38px;
   border-radius: 4px;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background: #2196f3;
 }
 
@@ -258,4 +250,13 @@ body{
   font-weight: 400;
   line-height: 1.87;
   letter-spacing: 0.48px;
+}
+
+.container{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: solid red;
 }
