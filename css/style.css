@@ -126,18 +126,13 @@ margin-bottom: 58px;
 
 .main-info {
 display: flex;
-gap: 30px;
-/* flex-shrink: 0; */
-padding-bottom: 140px;
-/* flex-direction: row; */
-
 flex-wrap: wrap;
-align-items: center;
-}
+ flex-basis: 100%;
+ gap: 30px;
+ justify-content: center;
+ flex-basis: calc((100% - 60px) / 3);
+  }
 
-.info-list {
-  flex-basis: calc((100% - 60px) / 3);
-}
 
 .info-title {
   color: var(--title-color);
