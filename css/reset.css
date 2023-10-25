@@ -9,6 +9,8 @@ h1, h2, h3, p{
 
 button{
 cursor: pointer;
+outline: 0;
+border: 0;
 }
 
 a{
