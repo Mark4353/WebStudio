@@ -94,8 +94,8 @@ margin-left: 93px;
 .main-info {
 display: flex;
 flex-wrap: wrap;
- gap: 30px;
- justify-content: center;
+  gap: 30px;
+  justify-content: center;
   }
 
   .main-button {
@@ -112,11 +112,11 @@ flex-wrap: wrap;
 
 .hero {
   background-color: #2f303a;
-height: 600px;
-display: flex;
-justify-content: center;
-padding-bottom: 94px;
-padding-top: 200px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 94px;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -142,9 +142,9 @@ padding-top: 200px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info-list1 {
@@ -174,9 +174,9 @@ justify-content: center;
   line-height: 36px; 
   letter-spacing: 1.08px;
   padding-top: 20px;
-font-size: 18px;
-padding-left: 24px;
-text-align: left;
+  font-size: 18px;
+  padding-left: 24px;
+  text-align: left;
 }
 
 .info-title {
@@ -211,49 +211,53 @@ text-align: left;
 .info-item1::before {
 content: "";
 display: block;
-background-image: url();
-border-radius: 4px;
 background: #F5F4FA;
-background-size: 100px;
+background-image: url(../images/antenna-1.svg);
+border-radius: 4px;
+background-size: 70px;
+background-repeat: no-repeat;
+background-position: center;
 width: 100%;
 height: 100px;
-
 }
 
 .info-item2::before {
   content: "";
   display: block;
-  background-image: url();
-  border-radius: 4px;
   background: #F5F4FA;
-  background-size: 100px;
+  background-image: url(../images/clock-1.svg);
+  border-radius: 4px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100px;
-  
   }
 
   .info-item3::before {
     content: "";
     display: block;
-    background-image: url();
-    border-radius: 4px;
     background: #F5F4FA;
-    background-size: 100px;
+    background-image: url(../images/diagram-1.svg);
+    border-radius: 4px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 100px;
-    
     }
 
     .info-item4::before {
       content: "";
       display: block;
-      background-image: url();
-      border-radius: 4px;
       background: #F5F4FA;
-      background-size: 100px;
+      background-image: url(../images/astronaut-1.svg);
+      border-radius: 4px;
+      background-size: 70px;
+      background-repeat: no-repeat;
+      background-position: center;
       width: 100%;
       height: 100px;
-      
       }
 
 .info-list {
