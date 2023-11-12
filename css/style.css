@@ -16,16 +16,12 @@ body{
   font-weight: 700;
   letter-spacing: 0.78px;
   font-family: "Raleway";
-display: flex;
-align-items: baseline;
-flex-wrap: wrap;
-align-content: center;
-
 }
 
-.header-section {
-  padding-top: 32px;
-  padding-bottom: 32px;
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 1px 0px 0px gray;
 }
 
 .header-link1 {
@@ -70,10 +66,9 @@ align-content: center;
 
 .header-pages{
   display: flex;
-  align-items: baseline;
   gap: 50px;
-margin-left: 93px;
-
+  margin-left: 93px;
+  align-items: center
 }
 
 .header-container {
@@ -112,10 +107,10 @@ flex-wrap: wrap;
 
 .hero {
   background-color: #2f303a;
-  height: 600px;
+
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
+  padding-bottom: 200px;
   padding-top: 200px;
 }
 
@@ -182,10 +177,10 @@ flex-wrap: wrap;
 .info-title {
   color: var(--title-color);
   font-weight: 700;
-  line-height: 36px; 
   letter-spacing: 1.08px;
-  padding-top: 20px;
+  margin-top: 20px;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .info-section {
@@ -200,7 +195,7 @@ flex-wrap: wrap;
   letter-spacing: 0.48px;
   padding-left: 24px;
   padding-bottom: 20px;
-  
+  margin-top: 4px;
 }
 
 .info {
@@ -428,9 +423,7 @@ margin-bottom: 10px;
   padding-top: 9px;
 }
 
-.footer-list{
-text-align: start;
-}
+
 
 .footer-color {
   background-color: #2f303a;
@@ -438,9 +431,7 @@ text-align: start;
   width: 1600px;
 }
 
-.connection{
-  padding-top: 9px;
-}
+
 
 .container{
   max-width: 1200px;
