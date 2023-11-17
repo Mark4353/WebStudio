@@ -108,8 +108,7 @@ flex-wrap: wrap;
 
 
 .hero {
-  background-color: #2f303a;
-
+  background-image: url(../images/hero-backround.png);
   display: flex;
   justify-content: center;
   padding-bottom: 200px;
