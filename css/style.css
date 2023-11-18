@@ -405,21 +405,14 @@ margin-bottom: 10px;
   line-height: 1.71;
   letter-spacing: 0.42px;
   margin-top: 20px;
-  margin-bottom: 9px;
-}
-
-.footer-contact {
-  color: rgba(255, 255, 255, 0.6);
-  letter-spacing: 0.42px;
-  padding-top: 9px;
-
+margin-bottom: 9px;
 }
 
 .footer-section {
   padding-top: 60px;
 }
 
-.footer-contact1 {
+.footer-contact {
   width: 231px;
   height: 21px;
   color: rgba(164, 164, 164, 0.6);
@@ -427,9 +420,19 @@ margin-bottom: 10px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+  margin-bottom: 9px;
 }
 
+.footer-contact2 {
+  width: 231px;
+  height: 21px;
+  color: rgba(164, 164, 164, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 
+}
 
 .footer-color {
   background-color: #2f303a;
