@@ -40,7 +40,7 @@ header {
 
 .header-contacts{
 display: flex;
-gap: 40px;
+gap: 9px;
 margin-left: 345px;
 flex-wrap: wrap;
 align-content: center;
@@ -73,6 +73,24 @@ align-content: center;
 
 .header-container {
   display: flex;
+}
+
+.header-svg {
+  fill: #757575;
+  cursor: pointer;
+}
+
+.header-svg:hover {
+  fill: #2196F3;
+}
+
+.header-svg:focus {
+  fill: #2196F3;
+}
+
+.header-icons {
+  width: 16px;
+height: 12px;
 }
 
 .main-pages{
@@ -205,42 +223,20 @@ flex-wrap: wrap;
   padding-top: 94px;
   padding-bottom: 118px;
 }
+.info-svg {
+  width: 70px;
+  height: 70px;
+}
 
 .info-item1::before {
 content: "";
 display: block;
 background-color: #F5F4FA;
 border-radius: 4px;
-width: 100%;
-height: 120px;
+width: 70px;
+height: 70px;
 }
 
-.info-item2::before {
-  content: "";
-  display: block;
-  background: #F5F4FA;
-  border-radius: 4px;
-  width: 100%;
-  height: 120px;
-  }
-
-  .info-item3::before {
-    content: "";
-    display: block;
-    background: #F5F4FA;
-    border-radius: 4px;
-    width: 100%;
-    height: 120px;
-    }
-
-    .info-item4::before {
-      content: "";
-      display: block;
-      background: #F5F4FA;
-      border-radius: 4px;
-      width: 100%;
-      height: 120px;
-      }
 
 .info-list {
   flex-basis: calc((100% - 60px) / 3);
@@ -352,14 +348,22 @@ height: 20px;
 cursor: pointer;
 }
 
+.team-svg {
+  
+}
+
 .customers-section {
   padding-top: 94px;
+  padding-bottom: 94px
 }
 
 .customers-title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
+}
+  
+.customers-svg {
 
 }
 
@@ -382,6 +386,23 @@ margin-bottom: 10px;
   text-align: center;
   padding-bottom: 30px;
 }
+
+.customers-list {
+display: flex;
+gap: 30px;
+justify-content: center;
+margin-top: 50px;
+}
+
+.customers-svg {
+  fill: #AFB1B8;
+  border-radius: 4px;
+border: 1px solid #AFB1B8;
+width: 170px;
+height: 92px;
+
+}
+
 
 .footer-text {
   color:var(--blue-color);
@@ -472,6 +493,6 @@ border-radius: 10px;
 
 .icons-list {
   display: flex;
-  gap: 34px;
+  gap: 10px;
   justify-content: space-around
 }
