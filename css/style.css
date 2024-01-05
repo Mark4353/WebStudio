@@ -400,9 +400,15 @@ margin-top: 50px;
 border: 1px solid #AFB1B8;
 width: 170px;
 height: 92px;
-
 }
 
+/* .customers-logo {
+  fill: #757575;
+} */
+
+.customers-logo:hover {
+fill: #2196F3;
+}
 
 .footer-text {
   color:var(--blue-color);
