@@ -292,6 +292,8 @@ height: 70px;
 
 
 .team-item {
+  width: 270px;
+height: 428px;
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -348,9 +350,7 @@ height: 20px;
 cursor: pointer;
 }
 
-.team-svg {
-  
-}
+
 
 .customers-section {
   padding-top: 94px;
@@ -364,8 +364,10 @@ cursor: pointer;
 }
   
 .customers-svg {
-
+  max-width: 106px;
+  max-height: 60px;
 }
+
 
 .photo-title {
   color: var(--title-color);
@@ -402,9 +404,7 @@ width: 170px;
 height: 92px;
 }
 
-/* .customers-logo {
-  fill: #757575;
-} */
+
 
 .customers-logo:hover {
 fill: #2196F3;
@@ -488,13 +488,20 @@ margin-bottom: 9px;
 .icons-team-card {
   fill: #AFB1B8;
 align-items: center;
-
+width: 20px;
+height: 20px;
+justify-content: center;
+align-items: center;
+display: flex;
 }
 
 .icons-team-card:hover{
   background-color: #2196f3;
-border-radius: 10px;
-
+border-radius: 50%;
+width: 35px;
+height: 35px;
+justify-content: center;
+align-items: center;
 }
 
 .icons-list {
