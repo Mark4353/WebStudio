@@ -1,11 +1,11 @@
 :root {
-  --blue-color:#2196f3;
-  --title-color:#212121;
-  --text-color:#757575;
-  --hero-title:#ffffff;
+  --blue-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --hero-title: #ffffff;
 }
 
-body{
+body {
   font-family: "Roboto";
   max-width: 1600px;
 }
@@ -21,7 +21,7 @@ body{
 header {
   padding-top: 20px;
   padding-bottom: 20px;
-  box-shadow: 0px 1px 0px 0px  #ECECEC;;
+  box-shadow: 0px 1px 0px 0px #ececec;
 }
 
 .header-link1 {
@@ -31,22 +31,21 @@ header {
   font-weight: 500;
   letter-spacing: 0.28px;
   justify-content: flex-end;
-
 }
 
 .header-link1:hover {
   color: #2196f3;
 }
 
-.header-contacts{
-display: flex;
-gap: 9px;
-margin-left: 345px;
-flex-wrap: wrap;
-align-content: center;
+.header-contacts {
+  display: flex;
+  gap: 9px;
+  margin-left: 345px;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-.header-logo-span1{
+.header-logo-span1 {
   color: #ffffff;
 }
 
@@ -60,15 +59,15 @@ align-content: center;
   color: #2196f3;
 }
 
-.header-logo-span{
+.header-logo-span {
   color: #212121;
 }
 
-.header-pages{
+.header-pages {
   display: flex;
   gap: 50px;
   margin-left: 93px;
-  align-items: center
+  align-items: center;
 }
 
 .header-container {
@@ -81,19 +80,19 @@ align-content: center;
 }
 
 .header-svg:hover {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .header-svg:focus {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .header-icons {
   width: 16px;
-height: 12px;
+  height: 12px;
 }
 
-.main-pages{
+.main-pages {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -105,30 +104,29 @@ height: 12px;
 }
 
 .main-info {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  }
+}
 
-  .main-button {
-    width: 125px;
-    height: 38px;
-    border-radius: 4px;
-    background: #f5f4fa;
+.main-button {
+  width: 125px;
+  height: 38px;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
 
-  }
-
-  .main-button:hover {
-    background-color: #2196f3;
-    color: #ffffff;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-
-  }
-
+.main-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
 
 .hero {
-  background-image:linear-gradient( rgba(47, 48, 58, 0.40), rgb(47, 48, 58, 0.40) ) , url(../images/hero-backround.png) ;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)),
+    url(../images/hero-backround.png);
   display: flex;
   justify-content: center;
   padding-bottom: 200px;
@@ -143,12 +141,12 @@ flex-wrap: wrap;
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  display: flex; 
+  display: flex;
   max-width: 698px;
   text-align: center;
 }
 
-.hero-button {  
+.hero-button {
   color: var(--hero-title);
   width: 216px;
   height: 50px;
@@ -161,6 +159,55 @@ flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.info-item1::before {
+  content: "";
+  display: block;
+  background: #f5f4fa;
+  background-image: url(../images/antenna.svg);
+  border-radius: 4px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+}
+.info-item2::before {
+  content: "";
+  display: block;
+  background: #f5f4fa;
+  background-image: url(../images/clock.svg);
+  border-radius: 4px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+}
+.info-item3::before {
+  content: "";
+  display: block;
+  background: #f5f4fa;
+  background-image: url(../images/diagram.svg);
+  border-radius: 4px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+}
+.info-item4::before {
+  content: "";
+  display: block;
+  background: #f5f4fa;
+  background-image: url(../images/astronaut.svg);
+  border-radius: 4px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 120px;
 }
 
 .info-list1 {
@@ -187,7 +234,7 @@ flex-wrap: wrap;
 .info-title1 {
   color: var(--title-color);
   font-weight: 700;
-  line-height: 36px; 
+  line-height: 36px;
   letter-spacing: 1.08px;
   padding-top: 20px;
   font-size: 18px;
@@ -228,16 +275,6 @@ flex-wrap: wrap;
   height: 70px;
 }
 
-.info-item1::before {
-content: "";
-display: block;
-background-color: #F5F4FA;
-border-radius: 4px;
-width: 70px;
-height: 70px;
-}
-
-
 .info-list {
   flex-basis: calc((100% - 60px) / 3);
   /* box-shadow: 1px 2px 2px black; */
@@ -245,11 +282,11 @@ height: 70px;
 }
 
 .info-list:hover {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .work {
-
   padding-bottom: 94px;
 }
 
@@ -262,7 +299,7 @@ height: 70px;
   margin-bottom: 50px;
 }
 
-.work-list{
+.work-list {
   display: flex;
   gap: 30px;
 }
@@ -290,71 +327,62 @@ height: 70px;
   text-align: center;
 }
 
-
 .team-item {
   width: 270px;
-height: 428px;
+  height: 428px;
   border-radius: 4px;
   background-color: #ffffff;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-padding-bottom: 42px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  padding-bottom: 42px;
 }
 
-.team-list{
+.team-list {
   display: flex;
   gap: 30px;
   margin-top: 50px;
-  background-color: #F5F4FA;
-
+  background-color: #f5f4fa;
 }
 
 .team-photo1 {
   width: 270px;
   height: 260px;
-  background: url(<path-to-image>),
-
+  background: url(<path-to-image>);
 }
 
 .team {
   padding-bottom: 94px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   padding-top: 94px;
 }
 
 .team-photo2 {
   width: 270px;
   height: 260px;
-  background: url(<path-to-image>),
-  
-
+  background: url(<path-to-image>);
 }
 
 .team-photo3 {
   width: 270px;
   height: 260px;
-  background: url(<path-to-image>),
-  
-
+  background: url(<path-to-image>);
 }
 
 .team-photo4 {
   width: 270px;
   height: 260px;
-  background: url(<path-to-image>),
-
+  background: url(<path-to-image>);
 }
 
 .icons {
   width: 20px;
-height: 20px;
-cursor: pointer;
+  height: 20px;
+  cursor: pointer;
 }
-
-
 
 .customers-section {
   padding-top: 94px;
-  padding-bottom: 94px
+  padding-bottom: 94px;
 }
 
 .customers-title {
@@ -362,8 +390,6 @@ cursor: pointer;
   font-weight: 700;
   font-size: 36px;
 }
-  
-
 
 .photo-title {
   color: var(--title-color);
@@ -371,9 +397,8 @@ cursor: pointer;
   font-weight: 500;
   letter-spacing: 0.48px;
   text-align: center;
-margin-top: 30px;
-margin-bottom: 10px;
-
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .photo-text {
@@ -386,32 +411,32 @@ margin-bottom: 10px;
 }
 
 .customers-list {
-display: flex;
-gap: 30px;
-justify-content: center;
-margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .customers-svg {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 
-width: 106px;
-height: 60px;
+  width: 106px;
+  height: 60px;
 }
 
 .customers-border {
-    border-radius: 4px;
-border: 1px solid #AFB1B8;
-width: 170px;
-height: 92px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
 }
 
 .customers-svg:hover {
-fill: #2196F3;
+  fill: #2196f3;
 }
 
 .footer-text {
-  color:var(--blue-color);
+  color: var(--blue-color);
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
@@ -431,7 +456,7 @@ fill: #2196F3;
   line-height: 1.71;
   letter-spacing: 0.42px;
   margin-top: 20px;
-margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-section {
@@ -449,6 +474,14 @@ margin-bottom: 9px;
   margin-bottom: 9px;
 }
 
+.footer-contact:hover {
+  color: #afb1b8;
+}
+
+.footer-contact:focus {
+  color: #afb1b8;
+}
+
 .footer-contact2 {
   width: 231px;
   height: 21px;
@@ -457,7 +490,14 @@ margin-bottom: 9px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+}
 
+.footer-contact2:hover {
+  color: #afb1b8;
+}
+
+.footer-contact2:focus {
+  color: #afb1b8;
 }
 
 .footer-color {
@@ -466,14 +506,14 @@ margin-bottom: 9px;
   width: 1600px;
 }
 
-.footer-icons{
+.footer-icons {
   display: flex;
   gap: 34px;
 }
 
-.footer-joining{ 
+.footer-joining {
   position: absolute;
-  bottom: -2085px;
+  bottom: -2060px;
   left: 516px;
   color: white;
   font-weight: 700;
@@ -481,32 +521,38 @@ margin-bottom: 9px;
 
 .footer-icon1 {
   position: absolute;
-  bottom: -2133px;
+  bottom: -2110px;
   left: 528px;
+  background-color: rgba(255, 255, 255, 0.10);
+  border-radius: 50%;
 }
 
 .footer-icon2 {
   position: absolute;
-  bottom: -2133px;
+  bottom: -2110px;
   left: 582px;
+  background-color: rgba(255, 255, 255, 0.10);
+  border-radius: 50%;
+
 }
 
 .footer-icon3 {
   position: absolute;
-  bottom: -2133px;
+  bottom: -2110px;
   left: 636px;
+  background-color: rgba(255, 255, 255, 0.10);
+  border-radius: 50%;
 }
 
 .footer-icon4 {
   position: absolute;
-  bottom: -2133px;
+  bottom: -2110px;
   left: 690px;
+  background-color: rgba(255, 255, 255, 0.10);
+  border-radius: 50%;
 }
 
-
-
-
-.container{
+.container {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -516,26 +562,26 @@ margin-bottom: 9px;
 }
 
 .icons-team-card {
-  fill: #AFB1B8;
-align-items: center;
-width: 35px;
-height: 35px;
-justify-content: center;
-align-items: center;
-display: flex;
+  fill: #ffffff;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.icons-team-card:hover{
+.icons-team-card:hover {
   background-color: #2196f3;
-border-radius: 50%;
-width: 35px;
-height: 35px;
-justify-content: center;
-align-items: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons-list {
   display: flex;
   gap: 10px;
-  justify-content: space-around
+  justify-content: space-around;
 }
