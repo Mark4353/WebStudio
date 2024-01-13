@@ -552,6 +552,37 @@ header {
   border-radius: 50%;
 }
 
+.footer-joining2 {
+  color: #ffffff;
+  position: absolute;
+  top: 1729px;
+  left: 516px;
+}
+
+.footer-icon11 {
+  position: absolute;
+  top: 1774px;
+  left: 528px;
+}
+
+.footer-icon12 {
+  position: absolute;
+  top: 1774px;
+  left: 582px;
+}
+
+.footer-icon13 {
+  position: absolute;
+  top: 1774px;
+  left: 636px;
+}
+
+.footer-icon14 {
+  position: absolute;
+  top: 1774px;
+  left: 690px;
+}
+
 .container {
   max-width: 1200px;
   margin-right: auto;
