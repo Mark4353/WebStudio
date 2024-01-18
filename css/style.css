@@ -287,7 +287,8 @@ header {
 }
 
 .work {
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
+  position: relative;
 }
 
 .work-title {
@@ -304,48 +305,46 @@ header {
   gap: 30px;
 }
 
-.work-photo1 {
-
-  
-}
-
-.work-item {
-  background-image: url(../images/work1.jpg);
-  background-repeat: no-repeat;
-  width: 370px;
-  height: 294px;
-}
-
-/* .work-item:hover {
-  background-image: url(../images/work1.jpg) linear-gradient(rgba(47, 48, 58, 0.8), rgb(47, 48, 58, 0.8))  url(../images/work1.jpg) ;
-  width: 370px;
-  height: 200px;
-
-} */
-
 .work-text {
-  
+  display: flex;
   color: #FFF;
  text-align: center;
 font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+background-color: rgba(47, 48, 58, 0.80);
+width: 370px;
+height: 70px;
+align-items: center;
+justify-content: center;
+}
+
+.work-position{
+  position: absolute;
+bottom: 0;
+}
+
+.work-position2 {
+position: absolute;
+bottom: 0;
+}
+
+.work-position3 {
+position: absolute;
+bottom: 0;
+}
+
+.work-item {
 
 }
 
 .work-item2 {
-  background-image: url(../images/work2.jpg);
-  background-repeat: no-repeat;
-  width: 370px;
-  height: 294px;
+
 }
 
 .work-item3 {
-  background-image: url(../images/work3.jpg);
-  background-repeat: no-repeat;
-  width: 370px;
-  height: 294px;
+
 }
 
 .team-title {
@@ -490,6 +489,7 @@ text-transform: uppercase;
 
 .footer-section {
   padding-top: 60px;
+  position: relative;
 }
 
 .footer-contact {
@@ -542,23 +542,23 @@ text-transform: uppercase;
 
 .footer-joining {
   position: absolute;
-  bottom: -2060px;
-  left: 516px;
+left: 516px;
+top: 72px;
   color: white;
   font-weight: 700;
 }
 
 .footer-icon1 {
   position: absolute;
-  bottom: -2110px;
   left: 528px;
+top: 120px;
   background-color: rgba(255, 255, 255, 0.10);
   border-radius: 50%;
 }
 
 .footer-icon2 {
   position: absolute;
-  bottom: -2110px;
+  top: 120px;
   left: 582px;
   background-color: rgba(255, 255, 255, 0.10);
   border-radius: 50%;
@@ -567,7 +567,7 @@ text-transform: uppercase;
 
 .footer-icon3 {
   position: absolute;
-  bottom: -2110px;
+  top: 120px;
   left: 636px;
   background-color: rgba(255, 255, 255, 0.10);
   border-radius: 50%;
@@ -575,7 +575,7 @@ text-transform: uppercase;
 
 .footer-icon4 {
   position: absolute;
-  bottom: -2110px;
+  top: 120px;
   left: 690px;
   background-color: rgba(255, 255, 255, 0.10);
   border-radius: 50%;
@@ -612,6 +612,25 @@ text-transform: uppercase;
   left: 690px;
 }
 
+.icons-footer {
+  fill: white;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.icons-footer:hover{
+  background-color: #2196f3;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   max-width: 1200px;
   margin-right: auto;
@@ -623,19 +642,21 @@ text-transform: uppercase;
 
 .icons-team-card {
   fill: rgba(175, 177, 184, 1);
+  
   align-items: center;
-  width: 35px;
-  height: 35px;
+  width: 44px;
+  height: 44px;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 .icons-team-card:hover {
+  fill: white;
   background-color: #2196f3;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 44px;
+  height: 44px;
   justify-content: center;
   align-items: center;
 }
