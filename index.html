@@ -59,11 +59,11 @@
       <section class="hero">
         <div class="container main-hero">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button">Замовити послугу</button>
+          <button type="button" class="hero-button" data-modal-open >Замовити послугу</button>
         </div>
       </section>
 
-      <section class="info">
+      <section class="info" id="info">
         <div class="container">
           <ul class="info-list1">
             <li class="info-item1 ">
@@ -286,5 +286,44 @@
         </div>
       </section>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <form action="">
+          <button type="button" class="modal-close" data-modal-close>
+            <svg class="modal-icon" width="14" height="14">
+              <use href="./images/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+          <ul class="modal-list">
+            <li class="modal-item">
+              <label for="#name" class="modal-name"> Ім’я </label>
+              <input type="text" id="name" class="modal-input" required />
+            </li>
+            <li class="modal-item">
+              <label for="#email" class="modal-name"> Телефон </label>
+              <input type="text" id="email" class="modal-input" required />
+            </li>
+            <li class="modal-item">
+              <label for="#adress" class="modal-name"> Пошта </label>
+              <input type="email" id="adress" class="modal-input" required />
+            </li>
+            <li class="modal-item">
+              <label for="#coment" class="modal-name">Коментар</label>
+                <input type="text" id="coment" class="modal-input-coment" required >
+            </li>
+          </ul>
+          <label class="modal-check">
+          <input type="checkbox">
+          <p class="modal-text">Погоджуюся з розсилкою та приймаю <span><a href="./dogovor.html" target="_blank" class="modal-text2">Умови договору</a></span></p>
+        </label>
+        <article class="modal-article">
+          <button type="submit" class="modal-btn">Відправити</button>
+        </article>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js" type="module"></script>
+
   </body>
 </html>
