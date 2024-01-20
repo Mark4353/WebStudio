@@ -307,32 +307,32 @@ header {
 
 .work-text {
   display: flex;
-  color: #FFF;
- text-align: center;
-font-size: 14px;
-font-weight: 700;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-background-color: rgba(47, 48, 58, 0.80);
-width: 370px;
-height: 70px;
-align-items: center;
-justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
 }
 
-.work-position{
+.work-position {
   position: absolute;
-bottom: 0;
+  bottom: 0;
 }
 
 .work-position2 {
-position: absolute;
-bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .work-position3 {
-position: absolute;
-bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .team-title {
@@ -530,8 +530,8 @@ bottom: 0;
 
 .footer-joining {
   position: absolute;
-left: 516px;
-top: 72px;
+  left: 516px;
+  top: 72px;
   color: white;
   font-weight: 700;
 }
@@ -539,8 +539,8 @@ top: 72px;
 .footer-icon1 {
   position: absolute;
   left: 528px;
-top: 120px;
-  background-color: rgba(255, 255, 255, 0.10);
+  top: 120px;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
@@ -548,16 +548,15 @@ top: 120px;
   position: absolute;
   top: 120px;
   left: 582px;
-  background-color: rgba(255, 255, 255, 0.10);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-
 }
 
 .footer-icon3 {
   position: absolute;
   top: 120px;
   left: 636px;
-  background-color: rgba(255, 255, 255, 0.10);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
@@ -565,7 +564,7 @@ top: 120px;
   position: absolute;
   top: 120px;
   left: 690px;
-  background-color: rgba(255, 255, 255, 0.10);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
@@ -610,7 +609,7 @@ top: 120px;
   display: flex;
 }
 
-.icons-footer:hover{
+.icons-footer:hover {
   background-color: #2196f3;
   border-radius: 50%;
   width: 44px;
@@ -630,7 +629,7 @@ top: 120px;
 
 .icons-team-card {
   fill: rgba(175, 177, 184, 1);
-  
+
   align-items: center;
   width: 44px;
   height: 44px;
@@ -655,8 +654,60 @@ top: 120px;
   justify-content: space-around;
 }
 
+.footer-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+
+.footer-button:hover {
+background-color: #1f80cf;
+}
+
+.footer-form-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 149, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 15px 15px;
+  margin-top: 20px;
+}
+
+.footer-input:hover {
+  background: #75757519;
+}
+
+.form-svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.footer-form {
+  position: absolute;
+  right: 215px;
+  top: 72px;
+}
+
 .backdrop {
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -675,51 +726,51 @@ top: 120px;
   justify-content: center;
   width: 528px;
   height: 581px;
-border-radius: 4px;
-background-color: #FFF;
-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-position: relative;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  position: relative;
 }
 
 .modal-title {
   color: #212121;
-text-align: center;
-font-size: 20px;
-font-weight: 700;
-letter-spacing: 0.6px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
 }
 
 .modal-name {
   color: #757575;
-font-size: 12px;
-font-weight: 400;
-letter-spacing: 0.12px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12px;
 
-display: block;
+  display: block;
 }
 
 .modal-list {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 10px;
-margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
 }
 
 .modal-input {
   padding: 15px 15px;
   width: 448px;
-height: 40px;
-border-radius: 4px;
-border: 1px solid rgba(33, 33, 33, 0.20);
-
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .modal-input-coment {
   width: 448px;
   height: 120px;
   border-radius: 4px;
-border: 1px solid rgba(33, 33, 33, 0.20);
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .modal-text {
@@ -729,8 +780,8 @@ border: 1px solid rgba(33, 33, 33, 0.20);
   line-height: 172%;
 }
 
-.modal-text2{
-  color: #2196F3;
+.modal-text2 {
+  color: #2196f3;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -752,10 +803,10 @@ border: 1px solid rgba(33, 33, 33, 0.20);
 .modal-btn {
   color: white;
   width: 200px;
-height: 50px;
-border-radius: 4px;
-background: #188CE8;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  height: 50px;
+  border-radius: 4px;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .modal-btn:hover {
@@ -763,19 +814,19 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .modal-icon {
-position: absolute;
-top: 0;
-right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 18px;
-height: 18px;
+  height: 18px;
 }
 
 .modal-close {
   position: absolute;
   top: 14px;
-right: 14px;
-width: 18px;
-height: 18px;
+  right: 14px;
+  width: 18px;
+  height: 18px;
 }
 
 .is-hidden {
