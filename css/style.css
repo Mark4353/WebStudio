@@ -90,6 +90,7 @@ header {
 .header-icons {
   width: 16px;
   height: 12px;
+
 }
 
 .main-pages {
@@ -661,6 +662,7 @@ header {
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
+  margin-right: 12px;
 }
 
 .footer-button:hover {
@@ -697,7 +699,7 @@ background-color: #1f80cf;
   fill: #fff;
   position: absolute;
   top: 50px;
-  right: 20px;
+  right: 30px;
 }
 
 .footer-form {
@@ -759,7 +761,7 @@ background-color: #1f80cf;
 }
 
 .modal-input {
-  padding: 15px 15px;
+  padding: 15px 35px;
   width: 448px;
   height: 40px;
   border-radius: 4px;
@@ -771,6 +773,17 @@ background-color: #1f80cf;
   height: 120px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 16px 12px;
+}
+
+.modal-txt {
+  color: rgba(117, 117, 117, 0.50);
+font-size: 12px;
+font-weight: 400;
+letter-spacing: 0.12px;
+position: absolute;
+top: 307px;
+left: 56px;
 }
 
 .modal-text {
@@ -786,6 +799,30 @@ background-color: #1f80cf;
   font-weight: 400;
   line-height: 24px;
   text-decoration-line: underline;
+}
+
+.modal-svg1 {
+  width: 18px;
+height: 18px;
+position: absolute;
+top: 118px;
+left: 50px;
+}
+
+.modal-svg2{
+  width: 18px;
+height: 18px;
+position: absolute;
+top: 182px;
+left: 50px;
+}
+
+.modal-svg3{
+  width: 18px;
+height: 18px;
+position: absolute;
+top: 245px;
+left: 50px;
 }
 
 .modal-check {
@@ -813,6 +850,10 @@ background-color: #1f80cf;
   background-color: #2ca0ff;
 }
 
+.modal-checkbox {
+  margin-right: 8px;
+}
+
 .modal-icon {
   position: absolute;
   top: 0;
@@ -825,8 +866,9 @@ background-color: #1f80cf;
   position: absolute;
   top: 14px;
   right: 14px;
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
+
 }
 
 .is-hidden {
