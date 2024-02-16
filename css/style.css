@@ -59,6 +59,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 opacity: 1;
 }
 
+.header-contact {
+  display: flex;
+  justify-content: center;
+}
 
 .header-contacts {
   display: flex;
@@ -66,6 +70,7 @@ opacity: 1;
   margin-left: 345px;
   flex-wrap: wrap;
   align-content: center;
+margin-bottom: 11px;
 }
 
 .header-logo-span1 {
@@ -99,6 +104,7 @@ opacity: 1;
 
 .header-container {
   display: flex;
+  position: relative;
 }
 
 .header-svg {
@@ -124,15 +130,16 @@ opacity: 1;
 
 }
 
+
 .main-pages {
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 
 .main-section {
-  padding-bottom: 50px;
-  padding-top: 126px;
+  padding-top: 94px;
 }
 
 .main-info {
@@ -620,6 +627,11 @@ color: white;
   margin-bottom: 9px;
 }
 
+.address {
+  margin-top: 9px;
+}
+
+
 .footer-section {
   padding-top: 60px;
   position: relative;
@@ -634,17 +646,26 @@ color: white;
   line-height: 1.71;
   letter-spacing: 0.42px;
   margin-bottom: 9px;
+
+}
+
+.footer-contact:hover {
+  color: #afb1b8;
   transition-property: color;
   transition-duration: 250px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-contact:hover {
-  color: #afb1b8;
-}
-
 .footer-contact:focus {
   color: #afb1b8;
+  transition-property: color;
+  transition-duration: 250px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.connect {
+  margin-bottom: 9px;
+  margin-top: 9px;
 }
 
 .footer-contact2 {
@@ -655,17 +676,22 @@ color: white;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+  margin-bottom: 9px;
+
+}
+
+.footer-contact2:hover {
+  color: #afb1b8;
   transition-property: color;
   transition-duration: 250px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-contact2:hover {
-  color: #afb1b8;
-}
-
 .footer-contact2:focus {
   color: #afb1b8;
+  transition-property: color;
+  transition-duration: 250px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-color {
@@ -689,32 +715,32 @@ color: white;
 
 .footer-icon1 {
   position: absolute;
-  left: 528px;
-  top: 120px;
+  left: 516px;
+  top: 108px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
 .footer-icon2 {
   position: absolute;
-  top: 120px;
-  left: 582px;
+  top: 108px;
+  left: 570px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
 .footer-icon3 {
   position: absolute;
-  top: 120px;
-  left: 636px;
+  top: 108px;
+  left: 624px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
 .footer-icon4 {
   position: absolute;
-  top: 120px;
-  left: 690px;
+  top: 108px;
+  left: 678px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
@@ -807,7 +833,6 @@ color: white;
 
 .icons-list {
   display: flex;
-  gap: 10px;
   justify-content: space-evenly;
 }
 
