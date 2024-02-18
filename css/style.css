@@ -188,6 +188,15 @@ margin-bottom: 11px;
   text-align: center;
 }
 
+.hero-title {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+
 .hero-button {
   color: var(--hero-title);
   width: 216px;
