@@ -1,15 +1,14 @@
 .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)),
-      url(../images/hero-backround.png);
-    display: flex;
-    justify-content: center;
-    padding-bottom: 200px;
-    padding-top: 200px;
-  }
-  
-  .hero-title {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)),
+    url(../images/hero-backround.png);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+
+  &__title {
     width: 696px;
-    color: var(--hero-title);
+    color: $hero-title;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
@@ -19,22 +18,20 @@
     max-width: 698px;
     text-align: center;
   }
-  
-  .hero-title {
+
+  &__title {
     display: inline-block;
     margin: 0 0.5rem;
-  
-    
+
     animation-duration: 2s; /* don't forget to set a duration! */
   }
-  
-  
-  .hero-button {
-    color: var(--hero-title);
+
+  &__button {
+    color: $blue-color;
     width: 216px;
     height: 50px;
     border-radius: 6px;
-    background: var(--blue-color);
+    background: $blue-color;
     cursor: pointer;
     margin-top: 30px;
     margin-left: auto;
@@ -46,9 +43,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .hero-button:hover {
+
+  &__button:hover {
     background-color: #56abf1;
   }
-  
-  
+}

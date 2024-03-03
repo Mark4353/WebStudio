@@ -1,4 +1,8 @@
-.info-item1::before {
+.info {
+  padding-top: 94px;
+  padding-bottom: 118px;
+
+  &__item1::before {
     content: "";
     display: block;
     background: #f5f4fa;
@@ -10,7 +14,7 @@
     width: 100%;
     height: 120px;
   }
-  .info-item2::before {
+  &__item2::before {
     content: "";
     display: block;
     background: #f5f4fa;
@@ -22,7 +26,7 @@
     width: 100%;
     height: 120px;
   }
-  .info-item3::before {
+  &__item3::before {
     content: "";
     display: block;
     background: #f5f4fa;
@@ -34,7 +38,7 @@
     width: 100%;
     height: 120px;
   }
-  .info-item4::before {
+  &__item4::before {
     content: "";
     display: block;
     background: #f5f4fa;
@@ -46,16 +50,16 @@
     width: 100%;
     height: 120px;
   }
-  
-  .info-list1 {
+
+  &__list1 {
     display: flex;
     gap: 20px;
   }
-  
-  .info-text {
+
+  &__text {
     width: 270px;
     height: 72px;
-    color: var(--text-color);
+    color: $text-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -63,13 +67,13 @@
     align-items: baseline;
     display: flex;
   }
-  
-  .info-img {
+
+  &__img {
     height: 294px;
   }
-  
-  .info-title1 {
-    color: var(--title-color);
+
+  &__title1 {
+    color: $title-color;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 1.08px;
@@ -78,22 +82,22 @@
     padding-left: 24px;
     text-align: left;
   }
-  
-  .info-title {
-    color: var(--title-color);
+
+  &__title {
+    color: $title-color;
     font-weight: 700;
     letter-spacing: 1.08px;
     margin-top: 20px;
     font-size: 14px;
     margin-bottom: 10px;
   }
-  
-  .info-section {
+
+  &__section {
     padding-bottom: 94px;
   }
-  
-  .info-text-portfolio {
-    color: var(--text-color);
+
+  &__text-portfolio {
+    color: $text-color;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.87;
@@ -102,12 +106,9 @@
     padding-bottom: 20px;
     margin-top: 4px;
   }
-  
-  .info {
-    padding-top: 94px;
-    padding-bottom: 118px;
-  }
-  .info-svg {
+
+  &__svg {
     width: 70px;
     height: 70px;
   }
+}

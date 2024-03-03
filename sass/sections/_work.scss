@@ -1,26 +1,22 @@
-
-
-
 .work {
-    /* padding-bottom: 94px; */
-    position: relative;
-  }
-  
-  .work-title {
-    color: var(--title-color);
+  /* padding-bottom: 94px; */
+  position: relative;
+
+  &__title {
+    color: $title-color;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
     text-align: center;
     margin-bottom: 50px;
   }
-  
-  .work-list {
+
+  &__list {
     display: flex;
     gap: 30px;
   }
-  
-  .work-text {
+
+  &__text {
     display: flex;
     color: #fff;
     text-align: center;
@@ -34,19 +30,19 @@
     align-items: center;
     justify-content: center;
   }
-  
-  .work-position {
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .work-position2 {
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .work-position3 {
+
+  &__position {
     position: absolute;
     bottom: 0;
   }
 
+  &__position2 {
+    position: absolute;
+    bottom: 0;
+  }
+
+  &__position3 {
+    position: absolute;
+    bottom: 0;
+  }
+}

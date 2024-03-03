@@ -1,19 +1,23 @@
-.footer-text {
-    color: var(--blue-color);
+.footer {
+  padding-top: 60px;
+  position: relative;
+
+  &__text {
+    color: $blue-color;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
     font-family: "Raleway";
   }
-  
-  .footer-logo {
+
+  &__logo {
     padding-top: 60px;
   }
-  
-  .footer-address {
+
+  &__address {
     width: 231px;
     height: 21px;
-    color: var(--hero-title);
+    color: $hero-title;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -21,18 +25,12 @@
     margin-top: 20px;
     margin-bottom: 9px;
   }
-  
-  .address {
+
+  &__address {
     margin-top: 9px;
   }
-  
-  
-  .footer-section {
-    padding-top: 60px;
-    position: relative;
-  }
-  
-  .footer-contact {
+
+  &__contact {
     width: 231px;
     height: 21px;
     color: rgba(164, 164, 164, 0.6);
@@ -41,29 +39,28 @@
     line-height: 1.71;
     letter-spacing: 0.42px;
     margin-bottom: 9px;
-  
   }
-  
-  .footer-contact:hover {
+
+  &__contact:hover {
     color: #afb1b8;
     transition-property: color;
     transition-duration: 250px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .footer-contact:focus {
+
+  &__contact:focus {
     color: #afb1b8;
     transition-property: color;
     transition-duration: 250px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .connect {
     margin-bottom: 9px;
     margin-top: 9px;
   }
-  
-  .footer-contact2 {
+
+  &__contact2 {
     width: 231px;
     height: 21px;
     color: rgba(164, 164, 164, 0.6);
@@ -72,110 +69,109 @@
     line-height: 1.71;
     letter-spacing: 0.42px;
     margin-bottom: 9px;
-  
   }
-  
-  .footer-contact2:hover {
+
+  &__contact2:hover {
     color: #afb1b8;
     transition-property: color;
     transition-duration: 250px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .footer-contact2:focus {
+
+  &__contact2:focus {
     color: #afb1b8;
     transition-property: color;
     transition-duration: 250px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .footer-color {
+
+  &__color {
     background-color: #2f303a;
     height: 252px;
     width: 1600px;
   }
-  
-  .footer-icons {
+
+  &__icon {
     display: flex;
     gap: 34px;
   }
-  
-  .footer-joining {
+
+  &__joining {
     position: absolute;
     left: 516px;
     top: 72px;
     color: white;
     font-weight: 700;
   }
-  
-  .footer-icon1 {
+
+  &__icon1 {
     position: absolute;
     left: 516px;
     top: 108px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
   }
-  
-  .footer-icon2 {
+
+  &__icon2 {
     position: absolute;
     top: 108px;
     left: 570px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
   }
-  
-  .footer-icon3 {
+
+  &__icon3 {
     position: absolute;
     top: 108px;
     left: 624px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
   }
-  
-  .footer-icon4 {
+
+  &__icon4 {
     position: absolute;
     top: 108px;
     left: 678px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
   }
-  
-  .footer-joining2 {
+
+  &__joining2 {
     color: #ffffff;
     position: absolute;
     top: 1729px;
     left: 516px;
   }
-  
-  .footer-icon11 {
+
+  &__icon11 {
     position: absolute;
     top: 1774px;
     left: 528px;
   }
-  
-  .footer-icon12 {
+
+  &__icon12 {
     position: absolute;
     top: 1774px;
     left: 582px;
   }
-  
-  .footer-icon13 {
+
+  &__icon13 {
     position: absolute;
     top: 1774px;
     left: 636px;
   }
-  
-  .footer-icon14 {
+
+  &__icon14 {
     position: absolute;
     top: 1774px;
     left: 690px;
   }
-  
-  .icons-footer {
+
+  &__icons {
     fill: white;
     align-items: center;
-    width: 44px;
-    height: 44px;
+    width: 22px;
+    height: 22px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -183,16 +179,16 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .icons-footer:hover {
+
+  &__icons:hover {
     background-color: #2196f3;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    width: 22px;
+    height: 22x;
     justify-content: center;
     align-items: center;
   }
-  .footer-button {
+  &__button {
     width: 200px;
     height: 50px;
     border-radius: 4px;
@@ -208,12 +204,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .footer-button:hover {
-  background-color: #1f80cf;
+
+  &__button:hover {
+    background-color: #1f80cf;
   }
-  
-  .footer-form-text {
+
+  &__form-text {
     color: #fff;
     font-size: 14px;
     font-weight: 700;
@@ -221,8 +217,8 @@
     text-transform: uppercase;
     display: block;
   }
-  
-  .footer-input {
+
+  &__input {
     width: 358px;
     height: 50px;
     border-radius: 4px;
@@ -235,13 +231,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .footer-input:hover {
+
+  &__input:hover {
     background-color: #75757519;
   }
 
-  .footer-form {
+  &__form {
     position: absolute;
     right: 215px;
     top: 72px;
   }
+}

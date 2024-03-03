@@ -1,12 +1,17 @@
-.team-title {
-    color: var(--title-color);
+.team {
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+  padding-top: 94px;
+
+  &__title {
+    color: $title-color;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
     text-align: center;
   }
-  
-  .team-item {
+
+  &__item {
     width: 270px;
     height: 428px;
     border-radius: 4px;
@@ -15,46 +20,40 @@
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     padding-bottom: 42px;
   }
-  
-  .team-list {
+
+  &__list {
     display: flex;
     gap: 30px;
     margin-top: 50px;
     background-color: #f5f4fa;
   }
-  
-  .team-photo1 {
-    width: 270px;
-    height: 260px;
-    background: url(<path-to-image>);
-  }
-  
-  .team {
-    padding-bottom: 94px;
-    background-color: #f5f4fa;
-    padding-top: 94px;
-  }
-  
-  .team-photo2 {
-    width: 270px;
-    height: 260px;
-    background: url(<path-to-image>);
-  }
-  
-  .team-photo3 {
-    width: 270px;
-    height: 260px;
-    background: url(<path-to-image>);
-  }
-  
-  .team-photo4 {
+
+  &__photo1 {
     width: 270px;
     height: 260px;
     background: url(<path-to-image>);
   }
 
-  .photo-title {
-    color: var(--title-color);
+  &__photo2 {
+    width: 270px;
+    height: 260px;
+    background: url(<path-to-image>);
+  }
+
+  &__photo3 {
+    width: 270px;
+    height: 260px;
+    background: url(<path-to-image>);
+  }
+
+  &__photo4 {
+    width: 270px;
+    height: 260px;
+    background: url(<path-to-image>);
+  }
+
+  &__photo--title {
+    color: $title-color;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
@@ -62,18 +61,18 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  
-  .photo-text {
-    color: var(--text-color);
+
+  &__photo--text {
+    color: $text-color;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
     text-align: center;
     padding-bottom: 30px;
   }
-  .icons-team-card {
+  &__icons--card {
     fill: rgba(175, 177, 184, 1);
-  
+
     align-items: center;
     width: 44px;
     height: 44px;
@@ -84,8 +83,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .icons-team-card:hover {
+
+  &__icons--card:hover {
     fill: white;
     background-color: #2196f3;
     border-radius: 50%;
@@ -94,8 +93,9 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .icons-list {
+
+  &__list {
     display: flex;
     justify-content: space-evenly;
   }
+}
