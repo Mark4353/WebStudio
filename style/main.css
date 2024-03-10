@@ -859,7 +859,7 @@ img {
   pointer-events: none;
 }
 
-.modal__form--svg {
+.modal__form-svg {
   width: 24px;
   height: 24px;
   fill: #fff;
