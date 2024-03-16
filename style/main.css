@@ -675,7 +675,7 @@ img {
   top: 72px;
 }
 
-.modals {
+.modal__container {
   padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
@@ -688,21 +688,21 @@ img {
   position: relative;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modals__title {
+.modal__title {
   color: #212121;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.6px;
 }
-.modals__list {
+.modal__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   margin-top: 30px;
 }
-.modals__input {
+.modal__input {
   padding: 15px 35px;
   width: 448px;
   height: 40px;
@@ -712,13 +712,13 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modals__input:hover {
+.modal__input:hover {
   border: 1px solid #2196f3;
 }
-.modals__input:focus {
+.modal__input:focus {
   border: 1px solid #2196f3;
 }
-.modals__input-coment {
+.modal__input-coment {
   width: 448px;
   height: 120px;
   border-radius: 4px;
@@ -728,10 +728,10 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modals__input-coment:focus {
+.modal__input-coment:focus {
   border: 1px solid #2196f3;
 }
-.modals__txt {
+.modal__txt {
   color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   font-weight: 400;
@@ -740,20 +740,20 @@ img {
   top: 307px;
   left: 56px;
 }
-.modals__text {
+.modal__text {
   color: #757575;
   font-size: 14px;
   font-weight: 400;
   line-height: 172%;
 }
-.modals__text2 {
+.modal__text2 {
   color: #2196f3;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-decoration-line: underline;
 }
-.modals__svg1 {
+.modal__svg1 {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -763,13 +763,13 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modals__svg1:hover {
+.modal__svg1:hover {
   fill: rgb(33, 150, 243);
 }
-.modals__svg1:focus {
+.modal__svg1:focus {
   fill: rgb(33, 150, 243);
 }
-.modals__svg2 {
+.modal__svg2 {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -779,13 +779,13 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modals__svg2:hover {
+.modal__svg2:hover {
   fill: rgb(33, 150, 243);
 }
-.modals__svg2:focus {
+.modal__svg2:focus {
   fill: rgb(33, 150, 243);
 }
-.modals__svg3 {
+.modal__svg3 {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -795,33 +795,33 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modals__svg3:hover {
+.modal__svg3:hover {
   fill: rgb(33, 150, 243);
 }
-.modals__svg3:focus {
+.modal__svg3:focus {
   fill: rgb(33, 150, 243);
 }
-.modals__name {
+.modal__name {
   color: #757575;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
   display: block;
 }
-.modals__input-coment:hover {
+.modal__input-coment:hover {
   border: 1px solid #2196f3;
 }
-.modals__check {
+.modal__check {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
-.modals__article {
+.modal__article {
   display: flex;
   justify-content: center;
   padding-top: 30px;
 }
-.modals__btn {
+.modal__btn {
   color: white;
   width: 200px;
   height: 50px;
@@ -832,20 +832,20 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modals__btn:hover {
+.modal__btn:hover {
   background-color: #2ca0ff;
 }
-.modals__checkbox {
+.modal__checkbox {
   margin-right: 8px;
 }
-.modals__icon {
+.modal__icon {
   position: absolute;
   top: 0;
   right: 0;
   width: 18px;
   height: 18px;
 }
-.modals__close {
+.modal__close {
   position: absolute;
   top: 14px;
   right: 14px;
@@ -853,12 +853,6 @@ img {
   height: 15px;
   background-color: white;
 }
-
-.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
 .modal__form-svg {
   width: 24px;
   height: 24px;
@@ -867,7 +861,6 @@ img {
   top: 50px;
   right: 20px;
 }
-
 .modal__backdrop {
   background: rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -880,4 +873,9 @@ img {
   justify-content: center;
   align-items: center;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }/*# sourceMappingURL=main.css.map */
