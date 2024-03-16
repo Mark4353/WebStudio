@@ -23,8 +23,7 @@
       border-radius: 4px;
       background: #f5f4fa;
       transition-property: background-color, color, box-shadow ;
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include trandit;
     }
     
     &__button:hover {

@@ -74,9 +74,9 @@
 
   &__title1 {
     color: $title-color;
-    font-weight: 700;
+
     line-height: 36px;
-    letter-spacing: 1.08px;
+@include  title_inf;
     padding-top: 20px;
     font-size: 18px;
     padding-left: 24px;
@@ -85,8 +85,7 @@
 
   &__title {
     color: $title-color;
-    font-weight: 700;
-    letter-spacing: 1.08px;
+@include title_inf;
     margin-top: 20px;
     font-size: 14px;
     margin-bottom: 10px;

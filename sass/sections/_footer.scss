@@ -44,15 +44,13 @@
   &__contact:hover {
     color: #afb1b8;
     transition-property: color;
-    transition-duration: 250px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include tranditions;
   }
 
   &__contact:focus {
     color: #afb1b8;
     transition-property: color;
-    transition-duration: 250px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include tranditions;
   }
 
   .connect {
@@ -74,15 +72,13 @@
   &__contact2:hover {
     color: #afb1b8;
     transition-property: color;
-    transition-duration: 250px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include tranditions;
   }
 
   &__contact2:focus {
     color: #afb1b8;
     transition-property: color;
-    transition-duration: 250px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include tranditions;
   }
 
   &__color {
@@ -105,35 +101,27 @@
   }
 
   &__icon1 {
-    position: absolute;
-    left: 516px;
+
     top: 108px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+@include icons-style;
   }
 
   &__icon2 {
-    position: absolute;
-    top: 108px;
+
     left: 570px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+@include icons-style;
   }
 
   &__icon3 {
-    position: absolute;
-    top: 108px;
+
     left: 624px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+@include icons-style;
   }
 
   &__icon4 {
-    position: absolute;
-    top: 108px;
+
     left: 678px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+@include icons-style;
   }
 
   &__joining2 {
@@ -144,40 +132,38 @@
   }
 
   &__icon11 {
-    position: absolute;
-    top: 1774px;
+
+    @include icons-top;
     left: 528px;
   }
 
   &__icon12 {
-    position: absolute;
-    top: 1774px;
+
+    @include icons-top;
     left: 582px;
   }
 
   &__icon13 {
-    position: absolute;
-    top: 1774px;
+
+    @include icons-top;
     left: 636px;
   }
 
   &__icon14 {
-    position: absolute;
-    top: 1774px;
+
+    @include icons-top;
     left: 690px;
   }
 
   &__icons {
     fill: white;
-    align-items: center;
+
     width: 44px;
     height: 44px;
-    justify-content: center;
-    align-items: center;
+@include align-justify_center;
     display: flex;
     transition-property: background-color, border-radius;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include tranditions;
   }
 
   &__icons:hover {
@@ -185,8 +171,7 @@
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    justify-content: center;
-    align-items: center;
+@include align-justify_center;
   }
   &__button {
     width: 200px;
@@ -201,8 +186,7 @@
     font-weight: 700;
     letter-spacing: 0.96px;
     transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include tranditions;
   }
 
   &__button:hover {
@@ -228,8 +212,7 @@
     padding: 15px 15px;
     margin-top: 20px;
     transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include tranditions;
   }
 
   &__input:hover {

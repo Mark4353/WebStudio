@@ -44,15 +44,13 @@
   &__contact:hover {
     color: #afb1b8;
     transition-property: color;
-    transition-duration: 250px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include trandit;
   }
 
   &__contact:focus {
     color: #afb1b8;
     transition-property: color;
-    transition-duration: 250px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include trandit;
   }
 
   .connect {
@@ -74,15 +72,13 @@
   &__contact2:hover {
     color: #afb1b8;
     transition-property: color;
-    transition-duration: 250px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ @include trandit;
   }
 
   &__contact2:focus {
     color: #afb1b8;
     transition-property: color;
-    transition-duration: 250px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ @include trandit;
   }
 
   &__color {
@@ -108,32 +104,25 @@
     position: absolute;
     left: 516px;
     top: 108px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+@include icons-style;
   }
 
   &__icon2 {
-    position: absolute;
-    top: 108px;
+
     left: 570px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+@include icons-style;
   }
 
   &__icon3 {
-    position: absolute;
-    top: 108px;
+
     left: 624px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+@include icons-style;
   }
 
   &__icon4 {
-    position: absolute;
-    top: 108px;
+
     left: 678px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+@include icons-style;
   }
 
   &__joining2 {
@@ -144,26 +133,22 @@
   }
 
   &__icon11 {
-    position: absolute;
-    top: 1774px;
+@include icons-top;
     left: 528px;
   }
 
   &__icon12 {
-    position: absolute;
-    top: 1774px;
+@include icons-top;
     left: 582px;
   }
 
   &__icon13 {
-    position: absolute;
-    top: 1774px;
+@include icons-top;
     left: 636px;
   }
 
   &__icon14 {
-    position: absolute;
-    top: 1774px;
+@include icons-top;
     left: 690px;
   }
 
