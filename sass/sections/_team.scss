@@ -21,11 +21,10 @@
     padding-bottom: 42px;
   }
 
-  &__list {
+  &__clist {
     display: flex;
-    gap: 30px;
-    margin-top: 50px;
-    background-color: #f5f4fa;
+    gap: 12px;
+    justify-content: center;
   }
 
   &__photo1 {

@@ -43,14 +43,14 @@ img {
   box-shadow: 0px 1px 0px 0px #ececec;
 }
 .header__logo {
-  color: var(--blue-color);
+  color: #2196f3;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
   font-family: "Raleway";
 }
 .header__link1 {
-  color: var(--title-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -163,7 +163,7 @@ img {
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 .hero__button {
-  color: #2196f3;
+  color: #ffffff;
   width: 216px;
   height: 50px;
   border-radius: 6px;
@@ -352,11 +352,10 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   padding-bottom: 42px;
 }
-.team__list {
+.team__clist {
   display: flex;
-  gap: 30px;
-  margin-top: 50px;
-  background-color: #f5f4fa;
+  gap: 12px;
+  justify-content: center;
 }
 .team__photo1 {
   width: 270px;
@@ -454,7 +453,8 @@ img {
 .customers__svg:hover {
   fill: #2196f3;
 }
-.customers .icons {
+
+.icons {
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -609,8 +609,8 @@ img {
 .footer__icons {
   fill: white;
   align-items: center;
-  width: 22px;
-  height: 22px;
+  width: 44px;
+  height: 44px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -621,8 +621,8 @@ img {
 .footer__icons:hover {
   background-color: #2196f3;
   border-radius: 50%;
-  width: 22px;
-  height: 22x;
+  width: 44px;
+  height: 44px;
   justify-content: center;
   align-items: center;
 }
