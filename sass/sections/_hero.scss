@@ -38,7 +38,7 @@
     display: flex;
 @include align-justify_center;
     transition-property: background-color;
-    @include tranditions;
+    @extend %trandit;
   }
 
   &__button:hover {

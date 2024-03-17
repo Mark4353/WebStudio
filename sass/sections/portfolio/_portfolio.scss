@@ -18,13 +18,13 @@
       align-items: center;
       transform: translateY(100%);
       transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      background-color: #188ce8;
+      background-color: $bl-background;
     }
     &__overlay-text {
       font-size: 18px;
       line-height: calc(28 / 18);
       letter-spacing: 0.03em;
-    color: white;
+    color: $hero-title;
       width: 322px;
     }
     &__link:hover .port__overlay,
@@ -65,7 +65,7 @@
         color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     &__name {
-      color: black;
+      color: $text-color;
       font-size: 18px;
       font-weight: 700;
       line-height: 1.5;

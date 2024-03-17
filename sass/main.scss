@@ -1,7 +1,9 @@
+@import "./base/vars";
 @import "./base/common";
 @import "./base/container";
 @import "./base/reset";
-@import "./base/vars";
+@import "./utils/mixins";
+@import "./utils/placeholders";
 
 @import "./sections/header";
 @import "./sections/hero";

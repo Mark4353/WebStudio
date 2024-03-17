@@ -5,7 +5,7 @@
   &__item1::before {
     content: "";
     display: block;
-    background: #f5f4fa;
+    background: $item-color;
     background-image: url(../images/antenna.svg);
     border-radius: 4px;
     background-size: 70px;
@@ -17,7 +17,7 @@
   &__item2::before {
     content: "";
     display: block;
-    background: #f5f4fa;
+    background: $item-color;
     background-image: url(../images/clock.svg);
     border-radius: 4px;
     background-size: 70px;
@@ -29,7 +29,7 @@
   &__item3::before {
     content: "";
     display: block;
-    background: #f5f4fa;
+    background: $item-color;
     background-image: url(../images/diagram.svg);
     border-radius: 4px;
     background-size: 70px;
@@ -41,7 +41,7 @@
   &__item4::before {
     content: "";
     display: block;
-    background: #f5f4fa;
+    background: $item-color;
     background-image: url(../images/astronaut.svg);
     border-radius: 4px;
     background-size: 70px;

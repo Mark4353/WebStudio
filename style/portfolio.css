@@ -38,6 +38,23 @@ body {
   /* outline: solid red; */
 }
 
+.footer__icon14, .footer__icon13, .footer__icon12, .footer__icon11 {
+  top: 1774px;
+  position: absolute;
+}
+
+.footer__contact2:focus, .footer__contact2:hover, .footer__contact:focus, .footer__contact:hover, .hero__button, .header__svg, .header__contact1, .header__link2::after, .header__link1 {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__icon4, .footer__icon3, .footer__icon2, .footer__icon1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  position: absolute;
+  top: 108px;
+}
+
 .header {
   padding-top: 20px;
   box-shadow: 0px 1px 0px 0px #ececec;
@@ -57,8 +74,6 @@ body {
   justify-content: flex-end;
   display: block;
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__link1:hover {
   color: #2196f3;
@@ -73,8 +88,6 @@ body {
   display: block;
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__link2:hover::after {
   opacity: 1;
@@ -100,8 +113,6 @@ body {
   font-weight: 500;
   letter-spacing: 0.28px;
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__contact1:hover {
   color: #2196f3;
@@ -124,8 +135,6 @@ body {
   fill: #757575;
   cursor: pointer;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__svg:hover {
   fill: #2196f3;
@@ -159,8 +168,6 @@ body {
   border-radius: 4px;
   background: #f5f4fa;
   transition-property: background-color, color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__button:hover {
   background-color: #2196f3;
@@ -188,13 +195,13 @@ body {
   align-items: center;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #188ce8;
+  background-color: #1f80cf;
 }
 .port__overlay-text {
   font-size: 18px;
   line-height: 1.5555555556;
   letter-spacing: 0.03em;
-  color: white;
+  color: #ffffff;
   width: 322px;
 }
 .port__link:hover .port__overlay, .port__link:focus .port__overlay {
@@ -229,7 +236,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .port__name {
-  color: black;
+  color: #212121;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
@@ -296,14 +303,10 @@ body {
 .footer__contact:hover {
   color: #afb1b8;
   transition-property: color;
-  transition-duration: 250px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__contact:focus {
   color: #afb1b8;
   transition-property: color;
-  transition-duration: 250px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer .connect {
   margin-bottom: 9px;
@@ -322,14 +325,10 @@ body {
 .footer__contact2:hover {
   color: #afb1b8;
   transition-property: color;
-  transition-duration: 250px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__contact2:focus {
   color: #afb1b8;
   transition-property: color;
-  transition-duration: 250px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__color {
   background-color: #2f303a;
@@ -344,36 +343,22 @@ body {
   position: absolute;
   left: 516px;
   top: 72px;
-  color: white;
+  color: #ffffff;
   font-weight: 700;
 }
 .footer__icon1 {
   position: absolute;
   left: 516px;
   top: 108px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 .footer__icon2 {
-  position: absolute;
-  top: 108px;
   left: 570px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 .footer__icon3 {
-  position: absolute;
-  top: 108px;
   left: 624px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 .footer__icon4 {
-  position: absolute;
-  top: 108px;
   left: 678px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 .footer__joining2 {
   color: #ffffff;
@@ -382,27 +367,19 @@ body {
   left: 516px;
 }
 .footer__icon11 {
-  position: absolute;
-  top: 1774px;
   left: 528px;
 }
 .footer__icon12 {
-  position: absolute;
-  top: 1774px;
   left: 582px;
 }
 .footer__icon13 {
-  position: absolute;
-  top: 1774px;
   left: 636px;
 }
 .footer__icon14 {
-  position: absolute;
-  top: 1774px;
   left: 690px;
 }
 .footer__icons {
-  fill: white;
+  fill: #ffffff;
   align-items: center;
   width: 44px;
   height: 44px;
@@ -427,7 +404,7 @@ body {
   border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #ffffff;
   margin-left: 12px;
   text-align: center;
   font-size: 16px;
@@ -441,7 +418,7 @@ body {
   background-color: #1f80cf;
 }
 .footer__form-text {
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -472,7 +449,7 @@ body {
 .footer__form-svg {
   width: 24px;
   height: 24px;
-  fill: #fff;
+  fill: #ffffff;
   position: absolute;
   top: 50px;
   right: 20px;

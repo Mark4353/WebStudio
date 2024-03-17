@@ -38,6 +38,23 @@ img {
   max-width: 100%;
 }
 
+.footer__icon14, .footer__icon13, .footer__icon12, .footer__icon11 {
+  top: 1774px;
+  position: absolute;
+}
+
+.modal__backdrop, .modal__btn, .modal__svg3, .modal__svg2, .modal__svg1, .modal__input-coment, .modal__input, .modal__container, .footer__input, .footer__button, .footer__icons, .footer__contact2:focus, .footer__contact2:hover, .footer__contact:focus, .footer__contact:hover, .customers__svg, .team__icons-card, .hero__button, .header__svg, .header__contact1, .header__link2::after, .header__link1 {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__icon4, .footer__icon3, .footer__icon2, .footer__icon1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  position: absolute;
+  top: 108px;
+}
+
 .header {
   padding-top: 20px;
   box-shadow: 0px 1px 0px 0px #ececec;
@@ -57,7 +74,6 @@ img {
   justify-content: flex-end;
   display: block;
   transition-property: color;
-  @includetranditions;
 }
 .header__link1:hover {
   color: #2196f3;
@@ -72,8 +88,6 @@ img {
   display: block;
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__link2:hover::after {
   opacity: 1;
@@ -99,8 +113,6 @@ img {
   font-weight: 500;
   letter-spacing: 0.28px;
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__contact1:hover {
   color: #2196f3;
@@ -123,8 +135,6 @@ img {
   fill: #757575;
   cursor: pointer;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__svg:hover {
   fill: #2196f3;
@@ -175,8 +185,6 @@ img {
   align-items: center;
   justify-content: center;
   transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__button:hover {
   background-color: #56abf1;
@@ -254,8 +262,8 @@ img {
 }
 .info__title1 {
   color: #212121;
-  font-weight: 700;
   line-height: 36px;
+  font-weight: 700;
   letter-spacing: 1.08px;
   padding-top: 20px;
   font-size: 18px;
@@ -306,7 +314,7 @@ img {
 }
 .work__text {
   display: flex;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -376,7 +384,7 @@ img {
   height: 260px;
   background: url(<path-to-image>);
 }
-.team__photo--title {
+.team__photo-title {
   color: #212121;
   font-size: 16px;
   font-weight: 500;
@@ -385,7 +393,7 @@ img {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.team__photo--text {
+.team__photo-text {
   color: #212121;
   font-size: 16px;
   font-weight: 400;
@@ -393,26 +401,23 @@ img {
   text-align: center;
   padding-bottom: 30px;
 }
-.team__icons--card {
+.team__icons-card {
   fill: rgb(175, 177, 184);
-  align-items: center;
   width: 44px;
   height: 44px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   display: flex;
   transition-property: fill, background-color, border-radius;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team__icons--card:hover {
-  fill: white;
+.team__icons-card:hover {
+  fill: #ffffff;
   background-color: #2196f3;
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .team__list {
   display: flex;
@@ -430,8 +435,8 @@ img {
 }
 .customers__list {
   display: flex;
-  gap: 30px;
   justify-content: center;
+  gap: 30px;
   margin-top: 50px;
 }
 .customers__svg {
@@ -439,8 +444,6 @@ img {
   width: 106px;
   height: 60px;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers__border {
   border-radius: 4px;
@@ -500,14 +503,10 @@ img {
 .footer__contact:hover {
   color: #afb1b8;
   transition-property: color;
-  transition-duration: 250px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__contact:focus {
   color: #afb1b8;
   transition-property: color;
-  transition-duration: 250px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer .connect {
   margin-bottom: 9px;
@@ -526,14 +525,10 @@ img {
 .footer__contact2:hover {
   color: #afb1b8;
   transition-property: color;
-  transition-duration: 250px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__contact2:focus {
   color: #afb1b8;
   transition-property: color;
-  transition-duration: 250px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__color {
   background-color: #2f303a;
@@ -548,36 +543,20 @@ img {
   position: absolute;
   left: 516px;
   top: 72px;
-  color: white;
+  color: #ffffff;
   font-weight: 700;
 }
 .footer__icon1 {
-  position: absolute;
-  left: 516px;
-  top: 108px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  left: 515px;
 }
 .footer__icon2 {
-  position: absolute;
-  top: 108px;
   left: 570px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 .footer__icon3 {
-  position: absolute;
-  top: 108px;
   left: 624px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 .footer__icon4 {
-  position: absolute;
-  top: 108px;
   left: 678px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 .footer__joining2 {
   color: #ffffff;
@@ -586,44 +565,33 @@ img {
   left: 516px;
 }
 .footer__icon11 {
-  position: absolute;
-  top: 1774px;
   left: 528px;
 }
 .footer__icon12 {
-  position: absolute;
-  top: 1774px;
   left: 582px;
 }
 .footer__icon13 {
-  position: absolute;
-  top: 1774px;
   left: 636px;
 }
 .footer__icon14 {
-  position: absolute;
-  top: 1774px;
   left: 690px;
 }
 .footer__icons {
-  fill: white;
-  align-items: center;
+  fill: #ffffff;
   width: 44px;
   height: 44px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   display: flex;
   transition-property: background-color, border-radius;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__icons:hover {
   background-color: #2196f3;
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .footer__button {
   width: 200px;
@@ -631,21 +599,19 @@ img {
   border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #ffffff;
   margin-left: 12px;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.96px;
   transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__button:hover {
   background-color: #1f80cf;
 }
 .footer__form-text {
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -662,11 +628,9 @@ img {
   padding: 15px 15px;
   margin-top: 20px;
   transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__input:hover {
-  background-color: rgba(117, 117, 117, 0.0980392157);
+  background-color: #757575;
 }
 .footer__form {
   position: absolute;
@@ -685,7 +649,7 @@ img {
   background-color: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   position: relative;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
 }
 .modal__title {
   color: #212121;
@@ -708,8 +672,6 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__input:hover {
   border: 1px solid #2196f3;
@@ -724,8 +686,6 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 16px 12px;
   transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__input-coment:focus {
   border: 1px solid #2196f3;
@@ -759,8 +719,6 @@ img {
   top: 118px;
   left: 50px;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__svg1:hover {
   fill: rgb(33, 150, 243);
@@ -775,8 +733,6 @@ img {
   top: 182px;
   left: 50px;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__svg2:hover {
   fill: rgb(33, 150, 243);
@@ -791,8 +747,6 @@ img {
   top: 245px;
   left: 50px;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__svg3:hover {
   fill: rgb(33, 150, 243);
@@ -821,15 +775,13 @@ img {
   padding-top: 30px;
 }
 .modal__btn {
-  color: white;
+  color: #ffffff;
   width: 200px;
   height: 50px;
   border-radius: 4px;
   background: #188ce8;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__btn:hover {
   background-color: #2ca0ff;
@@ -850,12 +802,12 @@ img {
   right: 14px;
   width: 15px;
   height: 15px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .modal__form-svg {
   width: 24px;
   height: 24px;
-  fill: #fff;
+  fill: #ffffff;
   position: absolute;
   top: 50px;
   right: 20px;
@@ -871,7 +823,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
 }
 
 .is-hidden {

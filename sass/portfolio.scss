@@ -3,6 +3,9 @@
 @import "./base/vars";
 @import "./base/common";
 @import "./base/container";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+
 
 @import"./sections/portfolio/header";
 @import"./sections/portfolio/hero";

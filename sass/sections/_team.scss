@@ -1,6 +1,6 @@
 .team {
   padding-bottom: 94px;
-  background-color: #f5f4fa;
+  background-color: $item-color;
   padding-top: 94px;
 
   &__title {
@@ -15,7 +15,7 @@
     width: 270px;
     height: 428px;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: $background-color;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     padding-bottom: 42px;
@@ -51,7 +51,7 @@
     background: url(<path-to-image>);
   }
 
-  &__photo--title {
+  &__photo-title {
     color: $title-color;
     font-size: 16px;
     font-weight: 500;
@@ -61,7 +61,7 @@
     margin-bottom: 10px;
   }
 
-  &__photo--text {
+  &__photo-text {
     color: $text-color;
     font-size: 16px;
     font-weight: 400;
@@ -69,27 +69,23 @@
     text-align: center;
     padding-bottom: 30px;
   }
-  &__icons--card {
+  &__icons-card {
     fill: rgba(175, 177, 184, 1);
-
-    align-items: center;
     width: 44px;
     height: 44px;
-    justify-content: center;
-    align-items: center;
+    @include align-justify_center;
     display: flex;
     transition-property: fill, background-color, border-radius;
-    @include tranditions;
+    @extend %trandit;
   }
 
-  &__icons--card:hover {
-    fill: white;
-    background-color: #2196f3;
+  &__icons-card:hover {
+    fill: $hero-title;
+    background-color: $blue-color;
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    justify-content: center;
-    align-items: center;
+ @include align-justify_center;
   }
 
   &__list {

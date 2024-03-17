@@ -13,7 +13,7 @@
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     position: relative;
     transition-property: opacity;
-    @include tranditions;
+    @extend %trandit;
    }
     &__title {
       color: #212121;
@@ -38,15 +38,15 @@
       border-radius: 4px;
       border: 1px solid rgba(33, 33, 33, 0.2);
       transition-property: border;
-      @include tranditions;
+      @extend %trandit;
     }
     
     &__input:hover {
-      border: 1px solid #2196f3;
+      border: 1px solid $blue-color;
     }
     
     &__input:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid $blue-color;
     }
     
     &__input-coment {
@@ -56,11 +56,11 @@
       border: 1px solid rgba(33, 33, 33, 0.2);
       padding: 16px 12px;
       transition-property: border;
-      @include tranditions;
+      @extend %trandit;
     }
     
     &__input-coment:focus {
-      border: 1px solid #2196f3;
+      border: 1px solid $blue-color;
     }
     
     &__txt {
@@ -74,14 +74,14 @@
     }
     
     &__text {
-      color: #757575;
+      color: $grey-color;
       font-size: 14px;
       font-weight: 400;
       line-height: 172%;
     }
     
     &__text2 {
-      color: #2196f3;
+      color: $blue-color;
       font-size: 14px;
       font-weight: 400;
       line-height: 24px;
@@ -95,7 +95,7 @@
       top: 118px;
       left: 50px;
       transition-property: fill;
-      @include tranditions;
+      @extend %trandit;
     }
     
     &__svg1:hover {
@@ -113,7 +113,7 @@
       top: 182px;
       left: 50px;
       transition-property: fill;
-      @include tranditions;
+      @extend %trandit;
     }
     
     &__svg2:hover {
@@ -131,7 +131,7 @@
       top: 245px;
       left: 50px;
       transition-property: fill;
-      @include tranditions;
+      @extend %trandit;
     }
     
     &__svg3:hover {
@@ -151,7 +151,7 @@
     }
     
     &__input-coment:hover {
-      border: 1px solid #2196f3;
+      border: 1px solid $blue-color;
     }
     &__check {
       display: flex;
@@ -166,14 +166,14 @@
     }
     
     &__btn {
-      color: white;
+      color: $hero-title;
       width: 200px;
       height: 50px;
       border-radius: 4px;
       background: #188ce8;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
       transition-property: background-color;
-      @include tranditions;
+      @extend %trandit;
     }
     
     &__btn:hover {
@@ -198,13 +198,13 @@
       right: 14px;
       width: 15px;
       height: 15px;
-      background-color: white;
+      background-color: $background-color;
     }
     
     &__form-svg {
       width: 24px;
       height: 24px;
-      fill: #fff;
+      fill: $hero-title;
       position: absolute;
       top: 50px;
       right: 20px;
@@ -222,7 +222,7 @@
       justify-content: center;
       align-items: center;
       transition-property: opacity;
-      @include tranditions;
+      @extend %trandit;
     }
   
 

@@ -18,24 +18,24 @@
     justify-content: flex-end;
     display: block;
     transition-property: color;
-    @include trandit;
+    @extend %trandit;
   }
 
   &__link1:hover {
-    color: #2196f3;
+    color: $blue-color;
   }
 
   &__link2::after {
     content: "";
     border-radius: 2px;
-    background-color: #2196f3;
+    background-color: $blue-color;
     width: 100%;
     height: 4px;
     margin-top: 20px;
     display: block;
     opacity: 0;
     transition-property: opacity;
-    @include trandit;
+    @extend %trandit;
   }
 
   &__link2:hover::after {
@@ -57,7 +57,7 @@
   }
 
   &__logo-span1 {
-    color: #ffffff;
+    color: $hero-title;
   }
 
   &__contact1 {
@@ -66,14 +66,14 @@
     font-weight: 500;
     letter-spacing: 0.28px;
     transition-property: color;
-    @include trandit;
+    @extend %trandit;
   }
   &__contact1:hover {
-    color: #2196f3;
+    color: $blue-color;
   }
 
   &__logo-span {
-    color: #212121;
+    color: $title-color;
   }
 
   &__pages {
@@ -93,15 +93,15 @@
     fill: #757575;
     cursor: pointer;
     transition-property: fill;
-    @include trandit;
+    @extend %trandit;
   }
 
   &__svg:hover {
-    fill: #2196f3;
+    fill: $blue-color;
   }
 
   &__svg:focus {
-    fill: #2196f3;
+    fill:$blue-color;
   }
 
   &__icons {

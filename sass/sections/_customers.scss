@@ -16,23 +16,23 @@
   }
 
   &__svg {
-    fill: #afb1b8;
+    fill: $border-color;
     width: 106px;
     height: 60px;
     transition-property: fill;
-    @include tranditions;
+    @extend %trandit;
   }
 
   &__border {
     border-radius: 4px;
-    border: 1px solid #afb1b8;
+    border: 1px solid $border-color;
     width: 170px;
     height: 92px;
     padding: 10px 10px;
   }
 
   &__svg:hover {
-    fill: #2196f3;
+    fill: $blue-color;
   }
 
   
