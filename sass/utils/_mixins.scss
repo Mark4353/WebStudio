@@ -3,16 +3,14 @@
     margin-left: auto;
     margin-right: auto;
 }
-@mixin  align-justify_center() {
-    align-items: center;
-    justify-content: center;
+@mixin  flex-box($align: center, $justify: center) {
+    align-items: $align;
+    justify-content: $justify;
+
+    display: flex;
 }
 @mixin  title_inf() {
     font-weight: 700;
     letter-spacing: 1.08px;
-}
-@mixin  dis-flex_jc() {
-    display: flex;
-    justify-content: center;
 }
 

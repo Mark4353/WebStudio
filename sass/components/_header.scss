@@ -43,16 +43,15 @@
     }
   
     &__contact {
-      display: flex;
-      justify-content: center;
+      @include flex-box($align: none);
     }
   
     &__contacts {
-      display: flex;
+      @include flex-box($justify: none);
       gap: 9px;
       margin-left: 345px;
       flex-wrap: wrap;
-      align-content: center;
+
       margin-bottom: 11px;
     }
   
@@ -77,15 +76,15 @@
     }
   
     &__pages {
-      display: flex;
+      @include flex-box($justify: none);
       gap: 50px;
       margin-left: 93px;
-      align-items: center;
+
       margin-top: 10px;
     }
   
     &__container {
-      display: flex;
+      @include flex-box($align: none, $justify: none);
       position: relative;
     }
   

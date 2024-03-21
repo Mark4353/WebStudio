@@ -52,7 +52,7 @@
   }
 
   &__list1 {
-    display: flex;
+    @include flex-box($align: none, $justify: none);
     gap: 20px;
   }
 
@@ -64,8 +64,8 @@
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
-    align-items: baseline;
-    display: flex;
+
+    @include flex-box($align: baseline, $justify: none);
   }
 
   &__img {
@@ -76,7 +76,7 @@
     color: $title-color;
 
     line-height: 36px;
-@include  title_inf;
+@include  title_inf();
     padding-top: 20px;
     font-size: 18px;
     padding-left: 24px;
@@ -85,7 +85,7 @@
 
   &__title {
     color: $title-color;
-@include title_inf;
+@include title_inf();
     margin-top: 20px;
     font-size: 14px;
     margin-bottom: 10px;

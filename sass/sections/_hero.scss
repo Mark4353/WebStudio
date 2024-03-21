@@ -1,8 +1,7 @@
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)),
     url(../images/hero-backround.png);
-  display: flex;
-  justify-content: center;
+    @include flex-box($align: none);
   padding-bottom: 200px;
   padding-top: 200px;
 
@@ -14,7 +13,7 @@
     line-height: 1.36;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    display: flex;
+    @include flex-box($align: none, $justify: none);
     max-width: 698px;
     text-align: center;
   }
@@ -34,9 +33,9 @@
     background: $blue-color;
     cursor: pointer;
     margin-top: 30px;
-@include margin-auto;
-    display: flex;
-@include align-justify_center;
+@extend %margin-auto;
+
+    @include flex-box();
     transition-property: background-color;
     @extend %trandit;
   }

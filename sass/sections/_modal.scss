@@ -3,8 +3,7 @@
   &__container {
     padding-top: 40px;
     padding-bottom: 40px;
-    display: flex;
-    justify-content: center;
+    @include flex-box($align: none);
     width: 528px;
     height: 581px;
     border-radius: 4px;
@@ -24,9 +23,9 @@
     }
     
     &__list {
-      display: flex;
+      @include flex-box($align: none);
       flex-wrap: wrap;
-      justify-content: center;
+
       gap: 10px;
       margin-top: 30px;
     }
@@ -154,14 +153,12 @@
       border: 1px solid $blue-color;
     }
     &__check {
-      display: flex;
-      justify-content: center;
+      @include flex-box($align: none);
       padding-top: 20px;
     }
     
     &__article {
-      display: flex;
-      justify-content: center;
+@include flex-box($align: none);
       padding-top: 30px;
     }
     
@@ -218,9 +215,7 @@
       position: fixed;
       left: 0;
       top: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex-box();
       transition-property: opacity;
       @extend %trandit;
     }

@@ -2,8 +2,7 @@
     padding-top: 94px;
 
     &__pages {
-      display: flex;
-      justify-content: center;
+      @include flex-box($align: none);
       gap: 8px;
       margin-bottom: 50px;
     }
@@ -11,10 +10,10 @@
    
     
     &__info {
-      display: flex;
+      @include flex-box($align: none);
       flex-wrap: wrap;
       gap: 30px;
-      justify-content: center;
+
     }
     
     &__button {

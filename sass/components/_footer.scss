@@ -70,15 +70,15 @@
   }
 
   &__contact2:hover {
-    color:$border-color;
+    color: $border-color;
     transition-property: color;
- @extend %trandit;
+    @extend %trandit;
   }
 
   &__contact2:focus {
-    color:$border-color;
+    color: $border-color;
     transition-property: color;
- @extend %trandit;
+    @extend %trandit;
   }
 
   &__color {
@@ -101,9 +101,8 @@
   }
 
   &__icon1 {
-    position: absolute;
-    left: 516px;
-    top: 108px;
+
+    left: 515px;
 @extend %icons-style;
   }
 
@@ -133,46 +132,57 @@
   }
 
   &__icon11 {
-@extend %icons-top;
+
+    @extend %icons-top;
     left: 528px;
   }
 
   &__icon12 {
-@extend %icons-top;
+
+    @extend %icons-top;
     left: 582px;
   }
 
   &__icon13 {
-@extend %icons-top;
+
+    @extend %icons-top;
     left: 636px;
   }
 
   &__icon14 {
-@extend %icons-top;
+
+    @extend %icons-top;
     left: 690px;
   }
 
   &__icons {
     fill: $hero-title;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
+    width: 22px;
+    height: 22px;
+@include flex-box();
+
     transition-property: background-color, border-radius;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %trandit;
   }
 
   &__icons:hover {
     background-color: $blue-color;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
+    width: 22px;
+    height: 22px;
+
   }
+
+  &__form-svg {
+    width: 24px;
+    height: 24px;
+    fill: $hero-title;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+
   &__button {
     width: 200px;
     height: 50px;
@@ -186,8 +196,7 @@
     font-weight: 700;
     letter-spacing: 0.96px;
     transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %trandit;
   }
 
   &__button:hover {
@@ -213,12 +222,11 @@
     padding: 15px 15px;
     margin-top: 20px;
     transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %trandit;
   }
 
   &__input:hover {
-    background-color: #75757519;
+    background-color: g;
   }
 
   &__form {
@@ -226,17 +234,4 @@
     right: 215px;
     top: 72px;
   }
-  &__form-svg {
-    width: 24px;
-    height: 24px;
-    fill: $hero-title;
-    position: absolute;
-    top: 50px;
-    right: 20px;
-  }
-}
-.icons {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
 }

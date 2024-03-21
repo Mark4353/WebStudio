@@ -9,7 +9,7 @@
   }
 
   &__list {
- @include dis-flex_jc;
+    @include flex-box($align: none);
     gap: 30px;
 
     margin-top: 50px;
