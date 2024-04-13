@@ -1,12 +1,20 @@
 .header {
-    padding-top: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     box-shadow: 0px 1px 0px 0px #ececec;
+    @media screen and (min-width: 768px){
+      padding-top: 26px;
   
+    }
+    @media screen and (min-width: 1200px){
+      padding-top: 24px;
+
+    }
     &__logo {
       color: $blue-color;
-      font-size: 26px;
+      font-size: 24px;
       font-weight: 700;
-      letter-spacing: 0.78px;
+      letter-spacing: 0.72px;
       font-family: "Raleway";
     }
   
@@ -16,15 +24,35 @@
       font-weight: 500;
       letter-spacing: 0.28px;
       justify-content: flex-end;
-      display: block;
+      display: none;
       transition-property: color;
       @extend %trandit;
+      @media screen and (min-width: 768px){
+        display: block;
+      }
+      @media screen and (min-width: 1200px){
+        display: block;
+      }
     }
   
     &__link1:hover {
       color: $blue-color;
     }
   
+&__bicons {
+  width: 40px;
+  height: 40px;
+position: absolute;
+right: 10px;
+bottom: -6px;
+@media screen and (min-width: 780px){
+display: none;
+}
+@media screen and (min-width: 1200px){
+  display: none;
+}
+}
+
     &__link2::after {
       content: "";
       border-radius: 2px;
@@ -44,15 +72,28 @@
   
     &__contact {
       @include flex-box($align: none);
+    display: none;
+    @media screen and (min-width: 768px){
+      display: block;
+    }
+    @media screen and (min-width: 1200px){
+      display: block;
+    }
     }
   
     &__contacts {
       @include flex-box($justify: none);
       gap: 9px;
-      margin-left: 345px;
+      margin-left: 94px;
       flex-wrap: wrap;
 
       margin-bottom: 11px;
+      @media screen and (min-width: 768px){
+       
+      }
+      @media screen and (min-width: 1200px){
+        margin-left: 341px;
+      }
     }
   
     &__logo-span1 {
@@ -79,12 +120,18 @@
       @include flex-box($justify: none);
       gap: 50px;
       margin-left: 93px;
-
+opacity: 0;
       margin-top: 10px;
+      @media screen and (min-width: 768px){
+        opacity: 1;
+      }
+      @media screen and (min-width: 1200px){
+        opacity: 1;
+      }
     }
   
     &__container {
-      @include flex-box($align: none, $justify: none);
+      @include flex-box($align: none);
       position: relative;
     }
   
@@ -93,6 +140,13 @@
       cursor: pointer;
       transition-property: fill;
       @extend %trandit;
+      opacity: 0;
+      @media screen and (min-width: 768px){
+        opacity: 1;
+      }
+      @media screen and (min-width: 1200px){
+        opacity: 1;
+      }
     }
   
     &__svg:hover {

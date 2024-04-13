@@ -2,6 +2,20 @@
   padding-top: 94px;
   padding-bottom: 118px;
 
+  &__list1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      display: flex;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+    }
+  }
+
+
   &__item1::before {
     content: "";
     display: block;
@@ -11,8 +25,16 @@
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 450px;
     height: 120px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 120px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 120px;
+    }
   }
   &__item2::before {
     content: "";
@@ -23,8 +45,16 @@
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 450px;
     height: 120px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 120px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 120px;
+    }
   }
   &__item3::before {
     content: "";
@@ -35,8 +65,16 @@
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 450px;
     height: 120px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 120px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 120px;
+    }
   }
   &__item4::before {
     content: "";
@@ -47,18 +85,34 @@
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 450px;
     height: 120px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 120px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 120px;
+    }
   }
 
   &__list1 {
     @include flex-box($align: none, $justify: none);
     gap: 20px;
+    @media screen and (min-width: 768px) {
+      display: flex;
+    flex-wrap: wrap;
+
+    }
+    @media screen and (min-width: 1200px) {
+ 
+    }
   }
 
   &__text {
-    width: 270px;
-    height: 72px;
+    width: 450px;
+    height: 50px;
     color: $text-color;
     font-size: 14px;
     font-weight: 400;
@@ -66,6 +120,15 @@
     letter-spacing: 0.42px;
 
     @include flex-box($align: baseline, $justify: none);
+    @media screen and (min-width: 768px) {
+      width: 354px;
+
+    }
+    @media screen and (min-width: 1200px) {
+     width: 270px;
+height: 72px;
+    }
+  
   }
 
   &__img {
@@ -76,7 +139,7 @@
     color: $title-color;
 
     line-height: 36px;
-@include  title_inf();
+    @include title_inf();
     padding-top: 20px;
     font-size: 18px;
     padding-left: 24px;
@@ -85,10 +148,15 @@
 
   &__title {
     color: $title-color;
-@include title_inf();
+    @include title_inf();
     margin-top: 20px;
     font-size: 14px;
     margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+@media screen and (min-width: 480px){
+  text-align: center;
+}
   }
 
   &__section {

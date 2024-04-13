@@ -5,50 +5,91 @@
 
   &__title {
     color: $title-color;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
-    letter-spacing: 1.08px;
+    letter-spacing: 0.84px;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   &__item {
-    width: 270px;
-    height: 428px;
+    width: 450px;
+    height: 622px;
     border-radius: 4px;
     background-color: $background-color;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     padding-bottom: 42px;
+    
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 536px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 428px;
+    }
   }
 
   &__clist {
     @include flex-box($align: none);
     gap: 12px;
-
   }
 
   &__photo1 {
-    width: 270px;
-    height: 260px;
+    width: 450px;
+    height: 460px;
     background: url(<path-to-image>);
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 374px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+    }
   }
 
   &__photo2 {
-    width: 270px;
-    height: 260px;
+    width: 450px;
+    height: 460px;
     background: url(<path-to-image>);
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 374px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+    }
   }
 
   &__photo3 {
-    width: 270px;
-    height: 260px;
+    width: 450px;
+    height: 460px;
     background: url(<path-to-image>);
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 374px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+    }
   }
 
   &__photo4 {
-    width: 270px;
-    height: 260px;
+    width: 450px;
+    height: 460px;
     background: url(<path-to-image>);
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 374px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+    }
   }
 
   &__ctitle {
@@ -74,7 +115,7 @@
     width: 44px;
     height: 44px;
     @include flex-box();
-  transition-property: fill, background-color, border-radius;
+    transition-property: fill, background-color, border-radius;
     @extend %trandit;
   }
 
@@ -84,11 +125,21 @@
     border-radius: 50%;
     width: 44px;
     height: 44px;
-
   }
 
   &__list {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
+    gap: 30px;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
   }
 }

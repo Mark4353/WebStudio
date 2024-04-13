@@ -34,7 +34,7 @@
       @include flex-box($justify: none);
       flex-wrap: wrap;
       gap: 30px;
-
+      flex-direction: column;
     }
     &__wrap {
       padding: 0 24px 20px;

@@ -4,7 +4,9 @@
     &__pages {
       @include flex-box($align: none);
       gap: 8px;
+      justify-content: flex-start;
       margin-bottom: 50px;
+    flex-wrap: wrap;
     }
     
    
@@ -17,12 +19,14 @@
     }
     
     &__button {
-      width: 125px;
+      width: 107px;
       height: 38px;
       border-radius: 4px;
       background: $item-color;
       transition-property: background-color, color, box-shadow ;
       @extend %trandit;
+      font-size: 16px;
+      font-weight: 500;
     }
     
     &__button:hover {

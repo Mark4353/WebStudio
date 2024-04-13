@@ -4,37 +4,47 @@
     @include flex-box($align: none);
   padding-bottom: 200px;
   padding-top: 200px;
+background-repeat: no-repeat;
 
   &__title {
-    width: 696px;
+    width: 360px;
     color: #ffffff;
-    font-size: 44px;
+    font-size: 26px;
     font-weight: 900;
-    line-height: 1.36;
+    line-height: 1.62;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    @include flex-box($align: none, $justify: none);
+    @include flex-box();
     max-width: 698px;
     text-align: center;
+    
+    @media screen and (min-width: 1200px){
+      width: 696px;
+      font-size: 44px;
+      line-height: 1.36;
+    }
   }
 
   &__title {
-    display: inline-block;
-    margin: 0 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
 
-    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-duration: 2s;
   }
 
   &__button {
     color: $hero-title;
-    width: 216px;
+    width: 200px;
     height: 50px;
-    border-radius: 6px;
+    border-radius: 4px;
     background: $blue-color;
     cursor: pointer;
     margin-top: 30px;
 @extend %margin-auto;
+@media screen and (min-width: 1200px){
+  width: 216px;
 
+}
     @include flex-box();
     transition-property: background-color;
     @extend %trandit;
