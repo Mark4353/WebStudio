@@ -89,10 +89,10 @@ justify-content: center;
 
   &__color {
     background-color: #2f303a;
-    width: 480px;
+    width: 100%;
     height: 603px;
     @media screen and (min-width: 780px){
-      width: 768px;
+      width: 100%;
       height: 463px; 
     }
     @media screen and (min-width: 1200px){
@@ -178,8 +178,8 @@ justify-content: center;
   &__icons {
     fill: $hero-title;
 
-    width: 44px;
-    height: 44px;
+    width: 22px;
+    height: 22px;
 @include flex-box();
 
     transition-property: background-color, border-radius;
@@ -189,8 +189,8 @@ justify-content: center;
   &__icons:hover {
     background-color: $blue-color;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    width: 22px;
+    height: 22px;
 
   }
 
@@ -259,6 +259,11 @@ height: 50px;
     @media screen and (min-width: 780px){
       left: 170px;
       position: absolute;
+    }
+    @media screen and (min-width: 1200px){
+      position: absolute;
+      bottom: 105px;
+      left: 680px;
     }
   }
  

@@ -1,6 +1,13 @@
 .port {
     margin-top: 50px;
     margin-bottom: 94px;
+    @media screen and (min-width: 780px){
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    @media screen and (min-width: 1200px){
+      
+    }
 
     &__thumb {
       position: relative;
@@ -35,6 +42,15 @@
       flex-wrap: wrap;
       gap: 30px;
       flex-direction: column;
+      @media screen and (min-width: 780px){
+        display: flex;
+        flex-wrap: wrap;
+    flex-direction: row;
+      }
+      @media screen and (min-width: 1200px){
+        display: flex;
+        justify-content: center;
+      }
     }
     &__wrap {
       padding: 0 24px 20px;
@@ -44,6 +60,13 @@
       border: 1px solid rgb(226, 226, 226);
       background: $background-color;
       flex-basis: calc((100% - 90px) / 3);
+      @media screen and (min-width: 780px){
+        flex-basis: calc((100% - 60px) / 2);
+      
+      }
+      @media screen and (min-width: 1200px){
+        flex-basis: calc((100% - 90px) / 3);
+      }
     }
     &__item:hover {
       box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
