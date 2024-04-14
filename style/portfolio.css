@@ -483,7 +483,7 @@ body {
 }
 @media screen and (min-width: 780px) {
   .footer__color {
-    width: 100%;
+    width: 1200px;
     height: 463px;
   }
 }
