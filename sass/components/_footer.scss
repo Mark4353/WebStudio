@@ -2,7 +2,7 @@
   padding-top: 60px;
   position: relative;
 padding-left: 15px;
-
+padding-right: 15px;
   &__text {
     color: $blue-color;
     font-size: 24px;
@@ -92,13 +92,11 @@ justify-content: center;
     width: 100%;
     height: 603px;
     @media screen and (min-width: 780px){
-      width: 1200px;
-      height: 463px; 
+     
     }
     @media screen and (min-width: 1200px){
       
-      width: 1600px;
-    height: 252px;
+      height: 252px;
     }
   }
 
@@ -110,38 +108,65 @@ justify-content: center;
   &__joining {
     font-size: 14px;
     position: absolute;
-    left: 516px;
-    top: 72px;
+    left: 200px;
+    top: 240px;
     color: $hero-title;
     font-weight: 700;
     letter-spacing: 0.42px;
 
     width: 146px;
-
+@media screen and (min-width:780px){
+  position: absolute;
+  left: 503px;
+  top: 65px;
+}
+@media screen and (min-width:1200px){
+ left: 490px;
+}
   }
 
   &__icon1 {
-   
-    left: 515px;
+    top: 295px;
+    left: 149px;
 @extend %icons-style;
+@media screen and (min-width:780px){
+  position: absolute;
+  left: 485px;
+  top: 113px;
+}
   }
 
   &__icon2 {
-
-    left: 570px;
+    top: 295px;
+    left: 203px;
 @extend %icons-style;
+@media screen and (min-width:780px){
+  position: absolute;
+  left: 539px;
+  top: 113px;
+}
   }
 
   &__icon3 {
-
-    left: 624px;
+    top: 295px;
+    left: 257px;
 @extend %icons-style;
+@media screen and (min-width:780px){
+  position: absolute;
+  left: 593px;
+  top: 113px;
+}
   }
 
   &__icon4 {
-
-    left: 678px;
+top: 295px;
+    left: 311px;
 @extend %icons-style;
+@media screen and (min-width:780px){
+  position: absolute;
+  left: 647px;
+  top: 113px;
+}
   }
 
   &__joining2 {
@@ -199,8 +224,14 @@ justify-content: center;
     height: 24px;
     fill: $hero-title;
     position: absolute;
-    top: 365px;
-    right: 140px;
+    top: 504px;
+    right: 45px;
+@media screen and (min-width:480px){
+  position: absolute;
+  right: 150px;
+  top: 505px;
+}
+
     @media screen and (min-width: 780px){
       position: absolute;
    left: 460px;
@@ -209,7 +240,7 @@ justify-content: center;
       @media screen and (min-width: 1200px){
         position: absolute;
 top: 121px;
-  left: 1359px;
+  left: 1223px;
         }
   }
 
@@ -237,7 +268,7 @@ top: 121px;
     @media screen and (min-width: 1200px){
       position: absolute;
       top: 108px;
-      left: 1185px;
+      left: 1050px;
       width: 200px;
 height: 50px;
       }
@@ -255,20 +286,21 @@ height: 50px;
     text-transform: uppercase;
     display: block;
     padding-left: 140px;
-    margin-top: 60px;
+    margin-top: 200px;
     @media screen and (min-width: 780px){
       left: 170px;
       position: absolute;
+      margin-top: 60px;
     }
     @media screen and (min-width: 1200px){
       position: absolute;
       bottom: 105px;
-      left: 680px;
+      left: 560px;
     }
   }
  
   &__input {
-    width: 450px;
+    width: 100%;
     height: 50px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -281,14 +313,16 @@ height: 50px;
     @media screen and (min-width: 780px){
       margin-top: 100px; 
       margin-left: 170px;
+      width: 450px;
+      
     }
     @media screen and (min-width: 1200px){
       position: absolute;
       top: 108px;
-      left: 815px;
+      left: 697px;
       margin: 0;
       width: 358px;
-height: 50px;
+      height: 50px;
     }
   }
 

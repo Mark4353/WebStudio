@@ -232,6 +232,10 @@ height: 120px;
       transition-property: opacity;
       @extend %trandit;
       margin-left: 15px;
+      @media screen and (min-width:1200px){
+        display: flex;
+        justify-content: center;
+      }
     }
   
   }

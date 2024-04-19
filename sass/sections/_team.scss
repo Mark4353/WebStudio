@@ -13,8 +13,7 @@
   }
 
   &__item {
-    width: 450px;
-    height: 622px;
+ 
     border-radius: 4px;
     background-color: $background-color;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
@@ -38,7 +37,7 @@
 
   &__photo1 {
     width: 450px;
-    height: 460px;
+    height: auto;
     background: url(<path-to-image>);
     @media screen and (min-width: 768px) {
       width: 354px;
@@ -52,7 +51,7 @@
 
   &__photo2 {
     width: 450px;
-    height: 460px;
+    height: auto;
     background: url(<path-to-image>);
     @media screen and (min-width: 768px) {
       width: 354px;
@@ -66,7 +65,7 @@
 
   &__photo3 {
     width: 450px;
-    height: 460px;
+    height: auto;
     background: url(<path-to-image>);
     @media screen and (min-width: 768px) {
       width: 354px;
@@ -80,7 +79,7 @@
 
   &__photo4 {
     width: 450px;
-    height: 460px;
+    height: auto;
     background: url(<path-to-image>);
     @media screen and (min-width: 768px) {
       width: 354px;
@@ -108,7 +107,7 @@
     font-weight: 400;
     letter-spacing: 0.48px;
     text-align: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   &__icons {
     fill: rgba(175, 177, 184, 1);
