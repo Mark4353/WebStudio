@@ -44,8 +44,11 @@
               <a href="#" class="header__link1 header__link2">Контакти</a>
             </li>
           </ul>
-          <svg class="header__bicons">
-            <use class="header__bsvg" href="./images/symbol-defs.svg#burger-menu"></use>
+          <svg class="header__bicons" data-menu-open>
+            <use
+              class="header__bsvg"
+              href="./images/symbol-defs.svg#burger-menu"
+            ></use>
           </svg>
           <ul class="header__contacts">
             <li class="header__contact">
@@ -402,5 +405,55 @@
         </div>
       </section>
     </footer>
+    <section class="menu">
+      <div class="menu__backdrop is-hidden" data-menu>
+        <button class="menu__button" type="button" data-menu-close>
+          <svg class="menu__icon">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link menu__active">Студія</a>
+          </li>
+          <li class="menu__item">
+            <a href="./portfolio.html" class="menu__link">Портфоліо</a>
+          </li>
+          <li class="menu__item">
+            <a href="#contacts" class="menu__link">Контакти</a>
+          </li>
+        </ul>
+        <div class="menu__wrap">
+          <a class="menu__tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="menu__mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <ul class="menu__socials">
+            <li class="menu__socitem">
+              <a href="" class="menu__soc">Instagram</a>
+            </li>
+            <li class="menu__socitem">
+              <div class="menu__rectangle"></div>
+            </li>
+            <li class="menu__socitem">
+              <a href="" class="menu__soc">Twitter</a>
+            </li>
+            <li class="menu__socitem">
+              <div class="menu__rectangle"></div>
+            </li>
+            <li class="menu__socitem">
+              <a href="" class="menu__soc">Facebook</a>
+            </li>
+            <li class="menu__socitem">
+              <div class="menu__rectangle"></div>
+            </li>
+            <li class="menu__socitem">
+              <a href="" class="menu__soc">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
