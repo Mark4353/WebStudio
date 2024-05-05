@@ -589,7 +589,7 @@ img {
   height: auto;
   background: url(<path-to-image>);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
   .team__photo1 {
     width: 354px;
     height: 374px;
@@ -975,6 +975,7 @@ img {
   .footer__form-svg {
     position: absolute;
     left: 460px;
+    top: 365px;
   }
 }
 @media screen and (min-width: 1200px) {

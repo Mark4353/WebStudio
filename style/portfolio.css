@@ -609,6 +609,7 @@ body {
   .footer__form-svg {
     position: absolute;
     left: 460px;
+    top: 365px;
   }
 }
 @media screen and (min-width: 1200px) {
